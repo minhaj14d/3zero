@@ -1,8 +1,9 @@
 # Exploring the Impact of the 3 Zero Movement in Bangladesh: A Pathway to Sustainable Development
 
 > Last updated: 2026-03-28
-> Status: Draft
+> Status: Draft (v2 — tone revision)
 > Target venue: 18th International Conference on Engineering & Natural Sciences (Full paper)
+> Previous version backup: backups/paper-article-v1-expert-tone.md
 
 ---
 
@@ -14,7 +15,7 @@ Department of Applied Mathematics, 4th Year Undergraduate
 
 **Abstract**
 
-Bangladesh has sustained an average GDP growth rate exceeding 6% over the past decade, yet persistent poverty, inadequate employment conditions, and rising carbon emissions continue to undermine its long-term development prospects. The 3 Zero Movement, rooted in Nobel Peace Laureate Professor Muhammad Yunus's vision of achieving zero poverty, zero unemployment, and zero net carbon emissions, offers a unified framework for addressing these interlinked challenges. This study evaluates Bangladesh's progress toward the three zero targets over the period 2013–2023 using a quantitative approach grounded in secondary data from the World Bank, the Bangladesh Bureau of Statistics, the International Labour Organization, and the Global Carbon Project. Eight indicators spanning the three pillars are normalized and aggregated into a composite 3 Zero Progress Index (3ZPI) to measure overall advancement. Linear regression is applied to each indicator to estimate rates of change and project target achievement timelines, while Pearson correlation analysis examines interdependencies among the pillars. The results indicate that Bangladesh has achieved its strongest progress in poverty reduction (pillar score rising from 0.00 to 1.00 over the study period), followed by employment (0.51 to 0.92), while the carbon emissions pillar has deteriorated (0.67 to 0.33) as total emissions grew by approximately 54%. The composite 3ZPI increased from 0.39 in 2013 to 0.75 in 2023, with a notable disruption in 2020 due to COVID-19. A strong negative correlation (r = −0.94) between the poverty and carbon pillars highlights a fundamental tension: the economic processes driving poverty reduction simultaneously increase emissions. These findings suggest that Bangladesh's development pathway remains structurally imbalanced, and that targeted interventions in clean energy and green employment are necessary to bring the carbon pillar into alignment with the other two. The study contributes a replicable quantitative methodology for tracking 3 Zero progress that can be extended to other developing economies.
+Bangladesh has been growing fast, both in its economy and population, and that combination brings real challenges. The country needs to figure out how to keep growing without undermining its own future. There has been genuine progress in areas like health and education, but poverty, joblessness, and environmental damage remain serious problems that could hold things back. This study looks at the 3 Zero Movement — Professor Muhammad Yunus's framework for achieving zero poverty, zero unemployment, and zero net carbon emissions — and tries to measure how much actual progress Bangladesh has made toward these goals over the period 2013–2023. Rather than relying only on qualitative assessments, this paper takes a quantitative approach: eight indicators across the three pillars are collected from sources like the World Bank, the Bangladesh Bureau of Statistics, the ILO, and the Global Carbon Project. These indicators are normalized and combined into a composite 3 Zero Progress Index (3ZPI). Linear regression is used to estimate how fast each indicator is changing, and Pearson correlation analysis is used to check whether the three pillars move together or pull against each other. The results show that poverty reduction has been the strongest area of progress (pillar score rising from 0.00 to 1.00), employment has improved but took a big hit during COVID-19 (0.51 to 0.92), and the carbon emissions pillar has actually gotten worse (0.67 to 0.33), with total emissions growing by about 54%. The overall 3ZPI went from 0.39 to 0.75, but a strong negative correlation (r = −0.94) between poverty and carbon progress suggests a real tension: the same economic activity that lifts people out of poverty also drives up emissions. These findings point to a structural imbalance in how Bangladesh is developing, and suggest that without targeted action on clean energy and greener forms of employment, the carbon pillar will keep dragging down overall progress.
 
 **Keywords:** 3 Zero Movement, sustainable development, Bangladesh, composite index, poverty, unemployment, carbon emissions, Muhammad Yunus
 
@@ -24,45 +25,45 @@ Bangladesh has sustained an average GDP growth rate exceeding 6% over the past d
 
 ### 1.1 Background
 
-Bangladesh occupies an unusual position in the global development landscape. Over the past two decades, the country has registered some of the most consistent GDP growth rates in South Asia, averaging above 6% annually between 2010 and 2023, while also recording meaningful improvements in life expectancy, primary school enrollment, and infant mortality (World Bank, 2023). Its graduation from Least Developed Country (LDC) status, recommended by the United Nations Committee for Development Policy in 2021, was widely regarded as a milestone for a nation that was once described as a "basket case" in the aftermath of its 1971 independence war.
+Bangladesh has had a remarkable economic run over the past two decades. GDP growth has averaged above 6% per year since 2010, and the country has made visible improvements in life expectancy, school enrollment, and child mortality (World Bank, 2023). In 2021, the United Nations recommended Bangladesh for graduation from Least Developed Country (LDC) status — a significant milestone for a country that faced extreme poverty and famine shortly after independence in 1971.
 
-Yet this growth story is incomplete. The poverty headcount ratio, while declining, still leaves tens of millions below the national poverty line. Official unemployment figures remain deceptively low — hovering around 4–5% — but mask widespread underemployment and informal labor arrangements that offer little security or upward mobility. At the same time, industrialization and energy consumption have pushed total carbon dioxide emissions upward by more than 50% in the last decade, placing Bangladesh in the paradoxical position of being both one of the countries most vulnerable to climate change and a growing contributor to the problem.
+But the headline numbers do not tell the whole story. A lot of people are still poor. The official unemployment rate looks low at around 4–5%, but that hides the fact that many workers are underemployed or stuck in informal jobs with no security. And carbon emissions have been going up steadily as the country industrializes — which puts Bangladesh in the strange position of being one of the most climate-vulnerable countries in the world while also contributing more and more to the problem.
 
-It is against this background that the 3 Zero Movement acquires its relevance. Articulated by Nobel Peace Laureate Professor Muhammad Yunus in his book *A World of Three Zeros* (2017), the framework calls for a restructuring of economic systems to achieve three interconnected goals: zero poverty, zero unemployment, and zero net carbon emissions. The vision draws on Yunus's decades of experience with Grameen Bank and social business, extending the microfinance philosophy into a broader agenda for systemic change. Unlike narrowly defined policy targets, the 3 Zero framework insists that these three goals must be pursued together — that addressing poverty without tackling emissions, or creating jobs without ensuring their sustainability, leads to incomplete and fragile development outcomes.
+This is the context in which the 3 Zero Movement becomes interesting. Professor Muhammad Yunus, who won the Nobel Peace Prize for his work with Grameen Bank, laid out a vision in his book *A World of Three Zeros* (2017) for achieving zero poverty, zero unemployment, and zero net carbon emissions. The idea builds on his experience with microfinance and social business, but extends it into a bigger framework for rethinking how economies work. What makes the 3 Zero concept different from, say, the UN Sustainable Development Goals is that it treats these three targets as deeply connected — you cannot solve one without addressing the others.
 
-The framework aligns closely with several of the United Nations Sustainable Development Goals (SDGs), particularly Goal 1 (No Poverty), Goal 8 (Decent Work and Economic Growth), and Goal 13 (Climate Action). However, while the SDGs set global targets with 2030 deadlines, the 3 Zero Movement frames its objectives as permanent structural transformations rather than time-bound benchmarks. This distinction matters for how progress is measured and assessed.
+The SDGs (particularly Goal 1 on poverty, Goal 8 on decent work, and Goal 13 on climate action) overlap with the 3 Zero targets, but they set time-bound benchmarks for 2030. The 3 Zero Movement is more about permanent structural change than hitting a deadline. That distinction matters when you try to measure progress, which is what this paper sets out to do.
 
 ### 1.2 Problem Statement
 
-Despite the conceptual appeal of the 3 Zero Movement, there has been limited quantitative assessment of Bangladesh's actual progress toward these goals. Much of the existing discourse around the framework remains aspirational — policy speeches, organizational mission statements, and programmatic descriptions. What is missing is a rigorous, data-driven evaluation that asks straightforward questions: How much progress has actually been made? At what rate? And are the three pillars advancing in harmony, or is progress in one area coming at the expense of another?
+The 3 Zero Movement sounds good on paper, but has anyone actually measured how Bangladesh is doing against these goals? Most of what has been written about the movement so far is aspirational — speeches, organizational reports, and descriptions of programs. There has not been much work that takes the available data and asks: How far has Bangladesh actually come? How fast? And here is the part that caught my attention as a mathematics student — are the three goals moving in the same direction, or is progress on one coming at the cost of another?
 
-This gap is particularly significant for a country like Bangladesh, where development data is increasingly available but underutilized for integrated multi-pillar analysis. Poverty statistics, employment surveys, and emissions inventories are published by separate agencies with different methodologies and timelines. No standardized instrument currently exists to aggregate these indicators into a single measure of 3 Zero progress.
+The data to answer these questions largely exists. The World Bank publishes poverty and emissions data. The Bangladesh Bureau of Statistics runs labour force surveys and household income surveys. The Global Carbon Project tracks CO₂. But these datasets sit in different places, measured on different scales, and nobody has tried to combine them into a single framework that tracks 3 Zero progress as a whole.
 
-From an applied mathematics perspective, this represents a well-defined problem: given a set of heterogeneous indicators measured on different scales, how can they be normalized, weighted, and combined into a composite index that meaningfully tracks progress toward a stated goal? And what statistical relationships exist among the component variables that might reveal trade-offs or synergies?
+From an applied math standpoint, this is actually a pretty clean problem. You have multiple indicators on different scales, and you want to normalize them, weight them, and combine them into a composite index. Then you can do trend analysis and correlation to see what is really happening. That is the approach this paper takes.
 
 ### 1.3 Research Questions
 
-This study is guided by three questions:
+Three questions guide this study:
 
-1. What is the quantitative trajectory of Bangladesh's progress toward each of the three zero targets over the decade 2013–2023?
-2. What statistical relationships (correlations) exist among the three pillars — do improvements in one area tend to accompany or hinder progress in the others?
-3. At current rates of change, when might Bangladesh plausibly reach each of the three zero targets, and which pillar represents the most critical bottleneck?
+1. How much quantitative progress has Bangladesh made toward each of the three zero targets over the decade 2013–2023?
+2. Are the three pillars moving together (synergy) or against each other (trade-offs) — and can we measure that statistically?
+3. At the current rate of change, when might Bangladesh reach each target, and which pillar is the biggest bottleneck?
 
 ### 1.4 Objectives
 
-The objectives of this study are:
-
-1. To quantify Bangladesh's decade-long progress on eight indicators spanning the three pillars of the 3 Zero Movement, using publicly available secondary data.
-2. To construct a composite 3 Zero Progress Index (3ZPI) that aggregates normalized indicator scores into a single trackable measure.
-3. To analyze inter-pillar statistical relationships through Pearson correlation coefficients and identify potential synergies and trade-offs.
-4. To estimate projected target achievement timelines through linear extrapolation and identify the most lagging pillar.
-5. To derive policy-relevant recommendations grounded in the quantitative findings.
+1. To collect and analyze data on eight indicators across the three pillars using publicly available secondary sources.
+2. To construct a composite 3 Zero Progress Index (3ZPI) by normalizing and aggregating these indicators.
+3. To examine statistical relationships between the pillars using Pearson correlation.
+4. To project when each target might be reached using linear extrapolation, and to identify the most lagging pillar.
+5. To offer some recommendations based on what the data shows.
 
 ### 1.5 Significance of the Study
 
-This study makes several contributions. First, it introduces a quantitative framework — the 3 Zero Progress Index — to a discourse that has been predominantly qualitative. For policymakers and development practitioners, a composite index provides a quick diagnostic of overall progress and reveals which dimension demands the most urgent attention. Second, the methodology is deliberately simple and replicable: min-max normalization, weighted aggregation, and linear regression are techniques accessible to any researcher with basic statistical training. This means the framework can be adapted and applied to other countries or subnational regions without specialized software or advanced modeling expertise. Third, the correlation analysis between pillars offers insight into the structural dynamics of Bangladesh's development — whether its growth model is compatible with all three zeros, or whether inherent trade-offs need to be managed through deliberate policy design.
+Most writing about the 3 Zero Movement is qualitative. This study tries to add a quantitative layer. The methodology — min-max normalization, weighted aggregation, linear regression, Pearson correlation — is not advanced by mathematics standards, but that is partly the point. These are accessible tools that any researcher can replicate, and they have not been applied to this particular problem before.
 
-For an applied mathematics audience, the study demonstrates how standard mathematical tools — index construction, linear models, and correlation — can be directed at questions that are often left to qualitative policy analysis. The intent is not to replace qualitative research but to complement it with a layer of quantitative rigor.
+For policymakers, a composite index like the 3ZPI could work as a quick diagnostic: which pillar is on track and which is not? For the academic side, the correlation analysis between pillars is potentially the most useful contribution, since it can reveal whether Bangladesh's current development model is compatible with all three zeros or whether there are built-in tensions that need to be managed.
+
+As an applied mathematics student, I was drawn to this topic because it is a case where straightforward mathematical tools can shed light on a question that is usually discussed in purely qualitative terms. The math is not the hard part here — the hard part is interpreting what the numbers mean for real policy. I have tried to be honest about where the data speaks clearly and where it does not.
 
 ---
 
@@ -70,57 +71,53 @@ For an applied mathematics audience, the study demonstrates how standard mathema
 
 ### 2.1 The 3 Zero Movement: Conceptual Foundations
 
-The intellectual roots of the 3 Zero Movement lie in Professor Muhammad Yunus's work with Grameen Bank, founded in 1983 to provide microcredit to the rural poor in Bangladesh without requiring collateral. The success of the Grameen model — which demonstrated that the poor are creditworthy and that small loans can catalyze self-employment — earned Yunus the Nobel Peace Prize in 2006 and generated a global microfinance movement (Yunus, 2007).
+The 3 Zero Movement grew out of Professor Muhammad Yunus's experience with Grameen Bank, which he founded in 1983 to give small loans to poor people in rural Bangladesh without requiring collateral. The idea that poor people are creditworthy — and that small loans can help them start businesses and work their way out of poverty — earned Yunus the Nobel Peace Prize in 2006 and sparked a global microfinance movement (Yunus, 2007).
 
-In *A World of Three Zeros* (2017), Yunus extended this philosophy beyond microfinance. He argued that the existing economic system, built around profit maximization, is structurally incapable of solving poverty, unemployment, and environmental degradation. Instead, he proposed "social business" — enterprises designed to solve social problems rather than generate shareholder profit — as the primary vehicle for achieving the three zeros. The book lays out a vision in which these three goals are not merely desirable outcomes but achievable structural features of a redesigned economy.
+In *A World of Three Zeros* (2017), Yunus went further. He argued that the current economic system, which is organized around profit maximization, is not built to solve problems like poverty, unemployment, and environmental damage. His alternative is "social business" — companies designed to address social problems rather than to make profits for shareholders. The book presents three interconnected targets: zero poverty, zero unemployment, and zero net carbon emissions. The key word is interconnected — Yunus's argument is that you cannot fix one without the others. Poverty will not stay eliminated if employment is precarious, and neither goal is sustainable if the environment is being degraded (Yunus, 2017).
 
-The framework deliberately links goals that are often treated separately in policy discourse. The argument is that poverty cannot be eliminated without creating meaningful employment, and that neither goal is sustainable if the environmental basis of the economy is degraded. This systems perspective distinguishes the 3 Zero framework from siloed approaches that target poverty or emissions in isolation (Yunus, 2017).
+There is overlap between the 3 Zero framework and the UN Sustainable Development Goals adopted in 2015 (United Nations, 2015), but they are not the same thing. The SDGs are broad, government-focused, and time-bound (target year 2030). The 3 Zero Movement is more specific in its philosophy — it emphasizes entrepreneurship, social business, and bottom-up change rather than top-down policy (Yunus Centre, 2020).
 
-The 3 Zero Movement intersects with the United Nations Sustainable Development Goals but differs in important respects. The SDGs, adopted in 2015, comprise 17 goals with 169 targets to be achieved by 2030 (United Nations, 2015). They are country-agnostic and emphasize government-led interventions. The 3 Zero framework is more philosophically specific — it centers entrepreneurship, social business, and bottom-up economic redesign rather than top-down policy targets (Yunus Centre, 2020).
+### 2.2 Zero Poverty: What the Literature Says About Bangladesh
 
-### 2.2 Zero Poverty: Progress and Challenges in Bangladesh
+Bangladesh has a genuinely impressive track record on poverty reduction. The national poverty headcount ratio went from about 48.9% in 2000 down to 24.3% by 2016, based on the Household Income and Expenditure Survey by the Bangladesh Bureau of Statistics (BBS, 2017). The 2022 HIES brought this down further to roughly 18.7%, though comparing across surveys is tricky because the methodology changes over time.
 
-Bangladesh's record on poverty reduction has been widely recognized. The national poverty headcount ratio declined from approximately 48.9% in 2000 to 24.3% in 2016, according to the Household Income and Expenditure Survey (HIES) conducted by the Bangladesh Bureau of Statistics (BBS, 2017). By the time of the 2022 HIES, this figure had further declined to an estimated 18.7%, though methodological changes between surveys complicate direct comparison.
+Microfinance has been one contributor to this decline. Khandker (2005) found, using panel data from Bangladesh, that microfinance participation was linked to about a 1.6 percentage point reduction in moderate poverty per year for participating households. But the evidence is not one-sided — Morduch (1999) pointed out that many studies on microfinance suffer from selection bias, and that the real impact may be more modest than the headline numbers suggest. More recently, Banerjee et al. (2015) found that microfinance helps with consumption smoothing and small investments but is less effective at permanently lifting people out of poverty.
 
-Microfinance has been credited as a significant contributor to this trend. Khandker (2005), using panel data from Bangladesh, found that microfinance participation was associated with a reduction in moderate poverty by about 1.6 percentage points per year for participating households. Morduch (1999), however, offered a more cautious assessment, noting that the evidence for microfinance's poverty impact is mixed and that selection bias affects many studies. More recent evaluations have suggested that microfinance is effective at smoothing consumption and enabling small-scale investment, but less effective at lifting households out of poverty permanently (Banerjee et al., 2015).
+The Multidimensional Poverty Index (MPI), developed by Alkire and Foster (2011), gives a broader picture by tracking deprivations across health, education, and living standards — not just income. Bangladesh's MPI has improved consistently: the proportion of multidimensionally poor people fell from about 41.7% in 2014 to around 24.6% by 2019 (UNDP & OPHI, 2020).
 
-Beyond income measures, the Multidimensional Poverty Index (MPI) developed by Alkire and Foster (2011) captures deprivations across health, education, and living standards. Bangladesh's MPI has shown consistent improvement: the headcount of multidimensionally poor individuals fell from approximately 41.7% in 2014 to around 24.6% by 2019 (UNDP & OPHI, 2020). This suggests that improvements extend beyond income to include access to healthcare, schooling, and basic services.
+The COVID-19 pandemic set things back. The World Bank estimated that between 14 and 24 million Bangladeshis were pushed into poverty during 2020 because of lost income, closed businesses, and reduced remittances (World Bank, 2021). There was partial recovery afterwards, but the episode showed how fragile poverty gains can be without strong safety nets.
 
-The COVID-19 pandemic disrupted this trajectory. The World Bank estimated that between 14 and 24 million Bangladeshis fell into poverty during 2020 due to income loss, business closures, and remittance declines (World Bank, 2021). While partial recovery occurred in subsequent years, the pandemic demonstrated the fragility of poverty gains in the absence of robust social protection systems.
+One persistent issue is the rural-urban gap. Poverty remains much higher in rural areas and in divisions like Rangpur and Mymensingh, while Dhaka and Chittagong have done better thanks to industrial employment (BBS, 2022).
 
-Rural-urban disparities remain a persistent challenge. Poverty is disproportionately concentrated in rural areas and in specific divisions such as Rangpur and Mymensingh, while Dhaka and Chittagong have seen faster reductions tied to industrial employment (BBS, 2022). Addressing these spatial inequalities is a key requirement for reaching zero poverty.
+### 2.3 Zero Unemployment: The Employment Situation
 
-### 2.3 Zero Unemployment: Employment Landscape in Bangladesh
+Bangladesh's official unemployment rate stays between 4% and 5%, which sounds low but is misleading. The BBS (following ILO guidelines) counts anyone who worked at least one hour in the reference week as "employed." Under that definition, someone doing a few hours of irregular work with no contract counts the same as someone with a full-time job (BBS, 2022).
 
-Bangladesh's official unemployment rate has remained low — typically reported between 4% and 5% — but this figure is widely regarded as misleading. The definition used by the Bangladesh Bureau of Statistics (consistent with ILO guidelines) classifies anyone who worked at least one hour in the reference week as employed. Under this definition, large segments of the population engaged in sporadic, low-productivity informal work are counted as employed (BBS, 2022).
+Underemployment is a more telling number. The 2022 Labour Force Survey found that about 6.4% of the labour force was working fewer than 40 hours per week despite wanting more work. When you add in people whose earnings fall below subsistence levels, the real picture of inadequate employment is much worse than 4%.
 
-Underemployment provides a more revealing picture. The Labour Force Survey 2022 reported that time-related underemployment — defined as working fewer than 40 hours per week while being available and willing to work more — affected approximately 6.4% of the labour force. Combined with inadequate employment (workers whose earnings fall below subsistence thresholds), the effective unemployment and underemployment rate is substantially higher than the headline figure suggests.
+Youth unemployment stands out as a problem. Among people aged 15–29, unemployment runs at 10–12%, two to three times the national average (ILO, 2023). There is also a paradox of "educated unemployment" — people with secondary or university degrees actually face higher unemployment than those with less education, because the skills the education system produces do not match what employers need (Rahman & Islam, 2019).
 
-Youth unemployment is a particular concern. Among the 15–29 age cohort, unemployment rates have consistently been two to three times the national average, reaching approximately 10–12% in recent surveys (ILO, 2023). The phenomenon of "educated unemployment" — where individuals with secondary or tertiary education face higher unemployment than those with less schooling — reflects a mismatch between the skills produced by the education system and those demanded by the labor market (Rahman & Islam, 2019).
+Women's labour force participation has been going up, rising from about 33.5% in 2013 to 42.0% by 2023 (BBS, 2022). The ready-made garments (RMG) sector, which employs around 4 million workers (mostly women), has been a big driver of this (Kabeer & Mahmud, 2004). But the quality of these jobs — wages, working conditions, safety — remains a serious concern.
 
-Women's labour force participation has increased over the past decade, rising from approximately 33.5% in 2013 to 42.0% by 2023 (BBS, 2022). The ready-made garments (RMG) sector, which employs roughly 4 million workers (predominantly women), has been a primary driver of this increase (Kabeer & Mahmud, 2004). However, working conditions, wage levels, and job security in the sector remain contentious issues.
+The 3 Zero Movement's take on unemployment is distinctive. Instead of conventional job-creation policies, Yunus argues that everyone is a potential entrepreneur and that the financial system should enable self-employment through microcredit and social business (Yunus, 2017). Grameen Bank has had real results with this approach, but whether it can scale to cover a labour force of over 70 million people is an open question.
 
-The 3 Zero Movement's approach to unemployment differs from conventional employment policy. Rather than focusing on job creation through industrial policy or public sector expansion, Yunus's framework emphasizes entrepreneurship. The argument is that every person is a potential entrepreneur, and that the financial system should be restructured to enable self-employment through microcredit and social business support (Yunus, 2017). While this philosophy has produced measurable results through Grameen Bank and its affiliates, scaling it to address the employment needs of a labor force exceeding 70 million remains an open question.
+### 2.4 Zero Net Carbon Emissions: The Environmental Picture
 
-### 2.4 Zero Net Carbon Emissions: Environmental Realities
+Bangladesh's carbon situation is full of contradictions. Per capita emissions are among the lowest in the world — about 0.57 tonnes of CO₂ per person in 2023, compared to a global average of around 4.7 tonnes (Global Carbon Project, 2023). But total emissions have been climbing fast, from roughly 65 million tonnes (Mt) in 2013 to nearly 100 Mt by 2023, a 54% increase driven by population growth, industrialization, and more energy use (World Bank, 2023).
 
-Bangladesh's carbon emissions profile presents a paradox. In per capita terms, Bangladesh is among the lowest emitters in the world — approximately 0.57 tonnes of CO₂ per person in 2023, compared to a global average of about 4.7 tonnes (Global Carbon Project, 2023). Yet in aggregate, the country's total emissions have been rising steadily, driven by population growth, industrialization, and increasing energy consumption. Total CO₂ emissions grew from approximately 65 million tonnes (Mt) in 2013 to nearly 100 Mt by 2023, an increase of roughly 54% (World Bank, 2023).
+The energy sector accounts for over 60% of CO₂ emissions. Bangladesh still depends heavily on natural gas (about 55% of commercial energy), and several new coal-fired power plants came online during the study period. The Rampal plant near the Sundarbans drew a lot of criticism internationally (Ahmed & Hossain, 2018). Industrial emissions come largely from brick kilns — there are thousands of them across the country — plus cement and steel production.
 
-The energy sector is the dominant source of emissions, accounting for over 60% of total CO₂. Bangladesh remains heavily dependent on natural gas, which provides approximately 55% of commercial energy supply. Coal-fired power plants, several of which came online during the study period, have added to the emissions trajectory. The Rampal coal plant near the Sundarbans mangrove forest drew particular international attention and criticism (Ahmed & Hossain, 2018).
+Under the Paris Agreement, Bangladesh committed to reducing greenhouse gas emissions by 21.85% below business-as-usual by 2030, with 6.73% unconditional and the rest depending on international support (Government of Bangladesh, 2021). But so far, progress toward these targets has been limited.
 
-Industrial emissions are driven largely by the brick-making sector, which operates thousands of kilns across the country, and the cement and steel industries. The RMG sector, while not a major direct emitter, contributes indirectly through its energy consumption and logistics footprint.
+There is a bright spot in renewable energy. The Solar Home System program, backed by IDCOL, installed over 6 million solar units in off-grid rural areas, which is one of the biggest programs of its kind anywhere (IDCOL, 2020). However, the overall share of renewables in total energy is still only about 4.5% as of 2023 — nowhere near enough for any realistic path to zero emissions.
 
-Bangladesh has made commitments under the Paris Agreement through its Nationally Determined Contributions (NDCs), pledging to reduce greenhouse gas emissions by 21.85% below business-as-usual by 2030, with 6.73% unconditionally and the remainder conditional on international support (Government of Bangladesh, 2021). However, progress toward these targets has been slow, and enforcement mechanisms remain limited.
+What makes this especially urgent for Bangladesh is vulnerability. The Global Climate Risk Index consistently ranks Bangladesh in the top ten countries most affected by extreme weather (Germanwatch, 2021). Cyclones, floods, sea-level rise, and riverbank erosion affect millions of people. The country bears a disproportionate share of climate costs relative to its contribution to the problem.
 
-On the positive side, Bangladesh has been a relative success story in decentralized renewable energy. The Solar Home System (SHS) program, supported by the Infrastructure Development Company Limited (IDCOL), installed over 6 million solar home systems in off-grid rural areas, making it one of the largest off-grid solar programs globally (IDCOL, 2020). Nonetheless, the share of renewables in total primary energy remains low — approximately 4.5% by 2023 — far below what would be required for a meaningful pathway to zero net emissions.
+### 2.5 The Gap This Study Addresses
 
-The vulnerability dimension adds urgency. Bangladesh consistently ranks among the top ten countries most affected by extreme weather events in the Global Climate Risk Index (Germanwatch, 2021). Sea-level rise, cyclones, flooding, and riverbank erosion threaten millions of livelihoods, creating a situation where the country disproportionately bears the costs of a problem it has contributed relatively little to creating.
+Reading through the literature, a couple of things stood out. First, most studies look at poverty, employment, and carbon emissions separately. Integrated studies that assess all three together are rare. Second, while there is plenty of writing about the 3 Zero Movement as a concept, I could not find any study that attempts to measure progress toward the three zeros quantitatively using a composite index.
 
-### 2.5 Research Gap
-
-The literature on Bangladesh's development is extensive, but most studies address poverty, employment, and environmental sustainability as separate domains. Integrated assessments that evaluate progress across all three areas simultaneously are rare. Furthermore, while the 3 Zero Movement has generated considerable advocacy literature and organizational activity, it has not been subjected to systematic quantitative evaluation using composite index methods.
-
-This study addresses both gaps: it treats the three zeros as a coupled system and applies a mathematical indexing approach to measure aggregate and pillar-level progress. The analytical tools — normalization, weighted aggregation, regression, and correlation — are standard in applied mathematics and readily reproducible, making the methodology accessible for extension and replication.
+This paper tries to fill both of those gaps. It treats the three zeros as parts of a single system and uses mathematical tools — normalization, weighted indexing, regression, and correlation — to track how they are moving. The methods are standard applied mathematics, and the whole thing is designed to be reproducible by anyone with access to the same public datasets.
 
 ---
 
@@ -128,24 +125,24 @@ This study addresses both gaps: it treats the three zeros as a coupled system an
 
 ### 3.1 Research Design
 
-This study employs a mixed-methods approach with a quantitative emphasis. The primary analytical component consists of secondary data analysis using publicly available national and international datasets. A qualitative policy review complements the quantitative findings by providing context on the institutional and programmatic factors behind observed trends.
+This study uses a mixed-methods approach, but the emphasis is on the quantitative side. The main analytical work involves secondary data analysis using publicly available datasets. A qualitative review of policy documents is included to help explain the trends that show up in the data, but the numbers are the core of the paper.
 
-The quantitative analysis proceeds in four stages: (i) data collection and indicator definition; (ii) normalization and composite index construction; (iii) trend analysis using linear regression; and (iv) inter-pillar correlation analysis. Each stage is described in detail below.
+The quantitative analysis has four stages: (i) data collection and indicator definition; (ii) normalization and composite index construction; (iii) trend analysis using linear regression; and (iv) inter-pillar correlation analysis.
 
 ### 3.2 Data Sources
 
-Data for this study were drawn from the following sources:
+The data comes from the following sources:
 
-- **Poverty indicators:** World Bank Development Indicators database; Bangladesh Bureau of Statistics Household Income and Expenditure Survey (HIES) 2016 and 2022; UNDP/OPHI Multidimensional Poverty Index reports.
-- **Employment indicators:** BBS Labour Force Survey (multiple rounds); International Labour Organization (ILO) ILOSTAT database; Bangladesh Bank annual reports on microcredit disbursement.
-- **Carbon emissions indicators:** World Bank CO₂ emissions dataset (sourced from CDIAC and Global Carbon Project); International Renewable Energy Agency (IRENA) statistics; Bangladesh Power Development Board annual reports.
-- **Policy documents:** Government of Bangladesh 8th Five Year Plan (2020–2025); Bangladesh Climate Change Strategy and Action Plan (BCCSAP); Nationally Determined Contributions (NDC) submissions under the Paris Agreement; Yunus Centre publications.
+- **Poverty indicators:** World Bank Development Indicators; BBS Household Income and Expenditure Survey (HIES) 2016 and 2022; UNDP/OPHI Multidimensional Poverty Index reports.
+- **Employment indicators:** BBS Labour Force Survey (multiple rounds); ILO ILOSTAT database; Bangladesh Bank annual reports on microcredit disbursement.
+- **Carbon emissions indicators:** World Bank CO₂ emissions data (sourced from CDIAC and Global Carbon Project); IRENA statistics; Bangladesh Power Development Board annual reports.
+- **Policy documents:** Government of Bangladesh 8th Five Year Plan (2020–2025); Bangladesh Climate Change Strategy and Action Plan (BCCSAP); Nationally Determined Contributions under the Paris Agreement; Yunus Centre publications.
 
-The study period covers the decade from 2013 to 2023. Where annual data were unavailable (particularly for poverty and MPI, which are surveyed intermittently), values were interpolated linearly between survey years, and this is noted as a limitation.
+The study covers 2013 to 2023. For indicators where annual data was not available (especially poverty and MPI, which come from surveys done every few years), values were linearly interpolated between survey years. This is a limitation I discuss later.
 
 ### 3.3 Indicator Selection
 
-Eight indicators were selected across the three pillars, chosen for their relevance to the respective zero targets, data availability over the study period, and consistency of measurement methodology:
+I selected eight indicators across the three pillars, based on three criteria: relevance to the zero target, availability of data for the full study period, and consistency of measurement.
 
 **Table 1: Indicator Definitions**
 
@@ -160,11 +157,9 @@ Eight indicators were selected across the three pillars, chosen for their releva
 | C2 | CO₂ per Capita | Per-person annual emissions | World Bank | t CO₂ | Lower is better |
 | C3 | Renewable Energy Share | Renewables as % of total primary energy | IRENA/Govt. | % | Higher is better |
 
-The "Direction" column indicates whether a higher or lower value represents progress toward the corresponding zero target. This distinction is critical for the normalization procedure described below.
+The "Direction" column matters for normalization. Some indicators are better when they go down (poverty, unemployment, emissions), and some are better when they go up (female LFPR, renewable share).
 
 ### 3.4 Data
-
-The following table presents the raw data used in this study. Values for survey-gap years were linearly interpolated from adjacent survey data points. All figures have been rounded for presentation.
 
 **Table 2: Raw Indicator Data (2013–2023)**
 
@@ -187,21 +182,21 @@ The following table presents the raw data used in this study. Values for survey-
 
 ### 3.5 Normalization
 
-To enable cross-indicator comparison and aggregation, all indicators are normalized to a common [0, 1] scale using min-max normalization over the study period. A normalized score of 1 represents the best observed performance (maximum progress toward zero), and 0 represents the worst.
+Since the indicators are measured on completely different scales (percentages, index values, megatonnes), they need to be brought to a common range before they can be compared or combined. I used min-max normalization to rescale everything to [0, 1], where 1 means the best observed performance and 0 means the worst.
 
-For indicators where a lower value indicates better performance toward the zero target (P1, P2, U1, U2, C1, C2), the inverted normalization formula is applied:
+For indicators where lower is better (P1, P2, U1, U2, C1, C2), I used the inverted formula:
 
 $$x_{i,\text{norm}} = \frac{x_{\max} - x_i}{x_{\max} - x_{\min}}$$
 
-For indicators where a higher value indicates better performance (U3, C3), the standard formula is used:
+For indicators where higher is better (U3, C3), the standard formula:
 
 $$x_{i,\text{norm}} = \frac{x_i - x_{\min}}{x_{\max} - x_{\min}}$$
 
-Here, $x_{\max}$ and $x_{\min}$ refer to the maximum and minimum observed values of each indicator across the entire study period (2013–2023). This approach ensures that the normalization reflects relative progress within the observed range rather than against an absolute or theoretical benchmark.
+Here $x_{\max}$ and $x_{\min}$ are the maximum and minimum values observed across the full 2013–2023 period. This means the normalization is relative — it shows how each year compares to the best and worst years in the dataset, not against some absolute benchmark.
 
 **Table 3: Min-Max Bounds for Normalization**
 
-| Indicator | Min (best for inverted; worst for standard) | Max (worst for inverted; best for standard) |
+| Indicator | Min | Max |
 |-----------|------|------|
 | P1 — Poverty (%) | 17.8 | 26.4 |
 | P2 — MPI | 0.095 | 0.196 |
@@ -214,47 +209,45 @@ Here, $x_{\max}$ and $x_{\min}$ refer to the maximum and minimum observed values
 
 ### 3.6 Composite 3 Zero Progress Index (3ZPI)
 
-The composite index is constructed in two stages. First, pillar-level scores are computed by averaging the normalized indicators within each pillar:
+Building the index involves two steps. First, the pillar-level scores are computed by averaging the normalized indicators within each pillar:
 
 $$P = \frac{1}{n_P} \sum_{j=1}^{n_P} x_{P_j,\text{norm}}, \quad U = \frac{1}{n_U} \sum_{j=1}^{n_U} x_{U_j,\text{norm}}, \quad C = \frac{1}{n_C} \sum_{j=1}^{n_C} x_{C_j,\text{norm}}$$
 
-where $n_P = 2$, $n_U = 3$, and $n_C = 3$ are the number of indicators in each pillar.
+where $n_P = 2$, $n_U = 3$, and $n_C = 3$.
 
-Second, the overall 3ZPI is computed as a weighted sum of pillar scores:
+Then the overall 3ZPI is a weighted sum of the three pillar scores:
 
 $$\text{3ZPI}_t = w_P \cdot P_t + w_U \cdot U_t + w_C \cdot C_t$$
 
-where $w_P + w_U + w_C = 1$. The baseline specification uses equal weights ($w_P = w_U = w_C = \frac{1}{3}$), reflecting the 3 Zero Movement's principle that all three goals are equally important. A sensitivity analysis using alternative weighting schemes is presented in Section 4.4.
+with $w_P + w_U + w_C = 1$. For the baseline, I used equal weights ($w_P = w_U = w_C = \frac{1}{3}$), since the 3 Zero Movement treats all three goals as equally important. I also ran a sensitivity analysis with different weights to check whether the conclusions change (Section 4.4).
 
-The 3ZPI ranges from 0 (no progress on any pillar) to 1 (all three zero targets effectively achieved within the observed data range). It should be noted that a 3ZPI of 1 does not mean the zero targets have been reached in absolute terms — it means that every indicator has reached its best observed level within the study period.
+A 3ZPI of 1 would mean every indicator has reached its best observed value; a score of 0 would mean everything is at its worst observed value. It is worth noting that a score of 1 does not mean the actual zero targets have been reached — just that every indicator is at its best level within this particular dataset.
 
 ### 3.7 Trend Analysis
 
-Linear regression is applied to each raw indicator as a function of time to estimate the average annual rate of change:
+To get a sense of how fast things are changing, I ran a simple linear regression on each raw indicator over time:
 
 $$y_t = \alpha + \beta \cdot t + \epsilon_t$$
 
-where $y_t$ is the indicator value in year $t$ (coded as $t = 0$ for 2013 through $t = 10$ for 2023), $\alpha$ is the intercept, $\beta$ is the slope (annual rate of change), and $\epsilon_t$ is the error term. The coefficient $\beta$ and its associated $R^2$ value are reported for each indicator.
+where $t = 0$ for 2013 through $t = 10$ for 2023. The slope $\beta$ tells us the average annual rate of change, and $R^2$ tells us how well a straight line fits the data.
 
-For indicators where the target is zero (poverty rate, unemployment, emissions), the projected year of reaching zero under the current linear trend is estimated by:
+For indicators where the target is zero, I estimated how long it would take to get there at the current rate:
 
 $$t_{\text{zero}} = 2023 + \frac{y_{2023}}{|\beta|}$$
 
-This extrapolation assumes a continuation of the observed linear trend and is presented as a rough benchmark rather than a forecast.
+This is a rough projection — it assumes the current linear trend just continues indefinitely, which is obviously a simplification. But it gives a useful baseline for comparison.
 
 ### 3.8 Correlation Analysis
 
-Pearson correlation coefficients are computed between the annual pillar scores (P, U, C) to examine inter-pillar relationships:
+To check whether the pillars move together or against each other, I computed Pearson correlation coefficients between the annual pillar scores:
 
 $$r_{XY} = \frac{\sum_{t=1}^{n}(X_t - \bar{X})(Y_t - \bar{Y})}{\sqrt{\sum_{t=1}^{n}(X_t - \bar{X})^2 \cdot \sum_{t=1}^{n}(Y_t - \bar{Y})^2}}$$
 
-where $n = 11$ (the number of annual observations). The correlation coefficient $r$ ranges from −1 (perfect negative relationship) to +1 (perfect positive relationship). With $n = 11$, the critical value for statistical significance at the 5% level is approximately $|r| > 0.602$ (two-tailed test, $df = 9$).
-
-Positive correlations between pillars would indicate synergy — progress in one area tends to accompany progress in another. Negative correlations would indicate trade-offs — gains in one pillar tend to coincide with setbacks in another.
+With $n = 11$ observations, the critical value for statistical significance at the 5% level is about $|r| > 0.602$ (two-tailed, $df = 9$). A positive correlation would suggest synergy (pillars improving together), and a negative correlation would suggest a trade-off (one gets better while the other gets worse).
 
 ### 3.9 Tools
 
-Data processing, normalization, regression, and correlation computations were performed using Python 3.11 with the pandas, NumPy, and scipy.stats libraries. Visualizations were prepared using matplotlib and seaborn. The document was prepared in Markdown with LaTeX mathematical typesetting.
+All calculations were done in Python 3.11 using pandas, NumPy, and scipy.stats. Plots were made with matplotlib and seaborn.
 
 ---
 
@@ -262,7 +255,7 @@ Data processing, normalization, regression, and correlation computations were pe
 
 ### 4.1 Normalized Indicator Scores
 
-Applying the normalization procedure described in Section 3.5, the following normalized scores were obtained:
+After applying the normalization formulas from Section 3.5, here are the results:
 
 **Table 4: Normalized Indicator Scores (2013–2023)**
 
@@ -280,11 +273,11 @@ Applying the normalization procedure described in Section 3.5, the following nor
 | 2022 | 0.895 | 0.911 | 0.727 | 0.500 | 0.835 | 0.129 | 0.133 | 0.882 |
 | 2023 | 1.000 | 1.000 | 1.000 | 0.769 | 1.000 | 0.000 | 0.000 | 1.000 |
 
-Several patterns are immediately visible. The poverty indicators (P1, P2) show a consistent upward trajectory, reaching their maximum normalized values by 2023. The employment indicators (U1, U2, U3) show general improvement but with a severe disruption in 2020. The carbon indicators reveal a divergence: C1 and C2 (emission levels) decline monotonically from their best values in 2013 as emissions grew, while C3 (renewable share) improves steadily.
+A few things jump out right away. The poverty indicators (P1, P2) climb steadily from 0 to 1 — that is the clearest positive trend in the dataset. The employment indicators (U1, U2, U3) were improving until 2020 hit and everything crashed, then gradually recovered. The carbon indicators tell a split story: C1 and C2 (actual emission levels) drop from 1.000 toward 0.000 as emissions grew, while C3 (renewable energy share) goes the other way, from 0.000 to 1.000. The problem is that the renewable gains are not nearly enough to offset the emission increases.
 
 ### 4.2 Pillar-Level Scores
 
-Pillar scores are computed by averaging the normalized indicators within each pillar.
+Averaging the normalized indicators within each pillar gives the following:
 
 **Table 5: Pillar Scores and 3ZPI (2013–2023)**
 
@@ -302,27 +295,27 @@ Pillar scores are computed by averaging the normalized indicators within each pi
 | 2022 | 0.903 | 0.687 | 0.381 | **0.657** |
 | 2023 | 1.000 | 0.923 | 0.333 | **0.752** |
 
-The results reveal a clear asymmetry across pillars:
+The three pillars tell very different stories:
 
-**Poverty pillar (P):** This pillar shows the strongest and most consistent improvement, rising from 0.000 in 2013 to 1.000 in 2023. Even the COVID-19 dip in 2020 (to 0.603) was relatively contained compared to the employment pillar, and the subsequent recovery was swift. The poverty headcount ratio declined by 8.6 percentage points over the decade, and the MPI roughly halved.
+**Poverty (P):** This is the clear winner. The score goes from 0.000 to 1.000 over the decade — meaning that by 2023, both poverty indicators had reached their best values in the dataset. The poverty headcount dropped 8.6 percentage points and the MPI roughly halved. Even the COVID-19 dip in 2020 (down to 0.603) was relatively mild compared to the employment pillar, and it bounced back quickly.
 
-**Unemployment pillar (U):** The employment pillar demonstrates strong pre-pandemic progress, peaking at 0.886 in 2019. The COVID-19 shock was devastating — the pillar score collapsed to 0.129 in 2020 as unemployment surged and female labour force participation dropped. Recovery was gradual, reaching 0.923 by 2023. The volatility of this pillar highlights the vulnerability of Bangladesh's employment structure to external shocks.
+**Unemployment (U):** This pillar was doing well before the pandemic, reaching 0.886 in 2019. Then COVID-19 hit and it crashed to 0.129 in 2020 — the most dramatic single-year drop in the entire dataset. Unemployment spiked, and female labour force participation fell back. Recovery was slow — it took until 2023 to get back to 0.923. The volatility here says something about how vulnerable Bangladesh's employment base is to external shocks.
 
-**Carbon pillar (C):** This is the only pillar showing net deterioration over the decade, declining from 0.667 in 2013 to 0.333 in 2023. While renewable energy adoption improved (C3 rose from 0.000 to 1.000 in normalized terms), this was overwhelmed by the worsening of emission indicators (C1 and C2 both fell to 0.000). The carbon pillar moves in the opposite direction from the other two, creating a structural imbalance in overall 3 Zero progress.
+**Carbon (C):** This is the problem pillar. It is the only one that got worse over the decade, falling from 0.667 to 0.333. Renewable energy adoption improved (C3 went from 0.000 to 1.000 in normalized terms), but that was overwhelmed by the steady increase in actual emissions (C1 and C2 both ended at 0.000). The carbon pillar is moving in the opposite direction from the other two.
 
 ### 4.3 3ZPI Trajectory
 
-The composite 3ZPI increased from 0.392 in 2013 to 0.752 in 2023, representing a net improvement of 0.360 points (92% increase from the base value). However, the trajectory was not smooth:
+Overall, the composite 3ZPI went from 0.392 in 2013 to 0.752 in 2023, which is a 92% increase from the starting value. But the path was not smooth:
 
-- **2013–2019:** Steady upward trend from 0.392 to 0.669, driven primarily by poverty reduction and employment gains.
-- **2020:** Sharp drop to 0.430 due to COVID-19, representing a loss of approximately five years of progress.
-- **2021–2023:** Recovery and acceleration, reaching a new high of 0.752 by 2023.
+- **2013–2019:** Steady climb from 0.392 to 0.669, driven mainly by poverty reduction and improving employment.
+- **2020:** Sharp fall to 0.430 because of COVID-19 — roughly five years of progress wiped out in one year.
+- **2021–2023:** Recovery and then acceleration to a new high of 0.752.
 
-The 2020 disruption is notable because it affected the pillars asymmetrically. The poverty pillar dipped modestly (from 0.724 to 0.603), the carbon pillar actually improved temporarily (from 0.398 to 0.557, as reduced economic activity lowered emissions), but the employment pillar collapsed (from 0.886 to 0.129). This pattern illustrates how the composite index can mask pillar-level dynamics when interpreted in isolation.
+One thing worth noting about 2020: the three pillars responded very differently to the pandemic. Poverty dipped moderately (0.724 → 0.603). Employment collapsed (0.886 → 0.129). And carbon actually improved temporarily (0.398 → 0.557), because reduced economic activity meant lower emissions. That last point is telling — the carbon improvement was a side-effect of economic pain, not a real structural shift. As soon as the economy recovered, emissions went right back up.
 
 ### 4.4 Sensitivity Analysis: Alternative Weighting Schemes
 
-To test the robustness of the 3ZPI results, three alternative weighting schemes were applied alongside the equal-weight baseline:
+Equal weights seem reasonable since the 3 Zero Movement treats all three goals as equally important, but I wanted to check whether the results depend heavily on that choice. So I ran the index with three alternative weighting schemes:
 
 - **Poverty-heavy:** $w_P = 0.50$, $w_U = 0.25$, $w_C = 0.25$
 - **Employment-heavy:** $w_P = 0.25$, $w_U = 0.50$, $w_C = 0.25$
@@ -338,36 +331,30 @@ To test the robustness of the 3ZPI results, three alternative weighting schemes 
 | 2020 | 0.430 | 0.473 | 0.236 | 0.557 |
 | 2023 | 0.752 | 0.814 | 0.795 | 0.648 |
 
-The key finding from the sensitivity analysis is that the carbon-heavy weighting produces the lowest 2023 score (0.648 vs. 0.752 under equal weights) and shows the flattest overall trajectory. This confirms that the carbon pillar is the primary drag on aggregate progress, regardless of weighting scheme. The poverty-heavy weighting produces the highest 2023 score (0.814), reflecting the strong performance of the poverty pillar. The employment-heavy weighting shows the deepest COVID-19 trough (0.236 in 2020), highlighting the sensitivity of this pillar to economic shocks.
-
-The qualitative conclusions are robust across all four weighting schemes: poverty progress is strong, employment progress is volatile but recovering, and carbon performance is the weakest and worsening dimension.
+The main takeaway: the conclusions do not change much with different weights. The carbon-heavy weighting gives the lowest 2023 score (0.648), confirming that the carbon pillar drags things down no matter how you weight it. The poverty-heavy weighting gives the highest score (0.814), reflecting how strong that pillar is. The employment-heavy weighting shows the deepest COVID crash (0.236 in 2020). But in all four cases, the same basic pattern holds: poverty is doing well, employment is volatile but recovering, and carbon is the weak link.
 
 ### 4.5 Trend Analysis: Linear Regression Results
 
-Linear regression was applied to each raw indicator over the 11-year period.
+Here are the regression results for each raw indicator:
 
 **Table 7: Linear Regression Results (y = α + βt, t = 0 for 2013)**
 
-| Indicator | β (annual change) | R² | Interpretation |
-|-----------|--------------------|----|----------------|
-| P1 — Poverty (%) | −0.76 | 0.92 | Declining ~0.76 pp/year |
-| P2 — MPI | −0.0094 | 0.97 | Consistent decline |
-| U1 — Unemployment (%) | −0.003 | 0.001 | Effectively flat (no trend) |
-| U2 — Youth Unemp. (%) | −0.005 | 0.001 | Effectively flat |
-| U3 — Female LFPR (%) | +0.72 | 0.85 | Increasing ~0.72 pp/year |
-| C1 — CO₂ Total (Mt) | +3.24 | 0.95 | Rising ~3.2 Mt/year |
-| C2 — CO₂ per Capita (t) | +0.014 | 0.96 | Rising ~0.014 t/year |
-| C3 — Renewable Share (%) | +0.17 | 0.99 | Slowly increasing |
+| Indicator | β (annual change) | R² | What it means |
+|-----------|--------------------|----|---------------|
+| P1 — Poverty (%) | −0.76 | 0.92 | Poverty dropping ~0.76 pp/year |
+| P2 — MPI | −0.0094 | 0.97 | MPI declining steadily |
+| U1 — Unemployment (%) | −0.003 | 0.001 | Basically flat — no real trend |
+| U2 — Youth Unemp. (%) | −0.005 | 0.001 | Also flat |
+| U3 — Female LFPR (%) | +0.72 | 0.85 | Going up ~0.72 pp/year |
+| C1 — CO₂ Total (Mt) | +3.24 | 0.95 | Emissions rising ~3.2 Mt/year |
+| C2 — CO₂ per Capita (t) | +0.014 | 0.96 | Per-capita emissions rising too |
+| C3 — Renewable Share (%) | +0.17 | 0.99 | Renewables growing, but slowly |
 
-The regression results confirm the pillar-level findings:
-
-- **Poverty indicators** have strong negative trends with high $R^2$ values, indicating sustained and consistent decline. The poverty headcount is decreasing at approximately 0.76 percentage points per year.
-- **Unemployment indicators** show essentially no linear trend ($R^2 \approx 0$), reflecting the disruption of COVID-19 that broke any pre-existing pattern. Female LFPR, however, shows a strong positive trend (+0.72 pp/year, $R^2 = 0.85$).
-- **Carbon indicators** show strong positive trends (increasing emissions) with very high $R^2$ values. Total CO₂ is increasing at 3.24 Mt per year, and per-capita emissions at 0.014 tonnes per year. Renewable energy share is increasing, but at only 0.17 percentage points per year — a pace that is insufficient to offset emission growth.
+The poverty indicators have strong downward trends with high $R^2$, meaning the decline has been consistent and well-described by a straight line. Unemployment shows essentially no linear trend at all — $R^2$ is near zero — because the COVID-19 disruption threw off any pattern that might have existed. Female LFPR is the bright spot in the employment pillar, with a solid upward trend. Carbon indicators have strong upward trends (meaning emissions are reliably increasing every year), and renewable energy growth, while consistent, is very slow at just 0.17 percentage points per year.
 
 ### 4.6 Gap Analysis and Projections
 
-Using the linear trend coefficients, projected years for reaching the zero target were estimated where applicable:
+Using the regression slopes, I estimated when each target might be reached if current trends just continue:
 
 **Table 8: Gap Analysis and Linear Extrapolation**
 
@@ -375,20 +362,20 @@ Using the linear trend coefficients, projected years for reaching the zero targe
 |-----------|------------|--------|------------|--------------------------|
 | P1 — Poverty (%) | 17.8 | 0 | −0.76 | ~2047 |
 | P2 — MPI | 0.095 | 0 | −0.0094 | ~2033 |
-| U1 — Unemployment (%) | 4.2 | 0 | ~0 | Not achievable under current trend |
-| U2 — Youth Unemp. (%) | 10.8 | 0 | ~0 | Not achievable under current trend |
-| C1 — CO₂ Total (Mt) | 99.8 | 0 | +3.24 | Moving away from target |
-| C2 — CO₂ per Capita (t) | 0.57 | 0 | +0.014 | Moving away from target |
+| U1 — Unemployment (%) | 4.2 | 0 | ~0 | Not reachable at current rate |
+| U2 — Youth Unemp. (%) | 10.8 | 0 | ~0 | Not reachable at current rate |
+| C1 — CO₂ Total (Mt) | 99.8 | 0 | +3.24 | Going the wrong way |
+| C2 — CO₂ per Capita (t) | 0.57 | 0 | +0.014 | Going the wrong way |
 
-The projections highlight the varying degrees of alignment between current trajectories and the three zero targets:
+These projections should be taken as rough indicators, not forecasts. But they do highlight how differently the three pillars are positioned:
 
-- **Poverty** is on a credible (if slow) path toward further reduction, with the MPI potentially nearing zero by the early 2030s and the headcount ratio by the mid-2040s under linear assumptions.
-- **Unemployment** shows no discernible linear trend toward zero. The official rate is low but essentially static; structural change in the employment market — addressing underemployment, informality, and youth joblessness — requires interventions beyond what current trends reflect.
-- **Carbon emissions** are moving in the wrong direction entirely. Under the current linear trend, emissions will continue to rise. Reaching zero net emissions would require not just a reversal of the trend but an order-of-magnitude transformation of the energy and industrial base.
+- **Poverty** is on a plausible downward path. The MPI could approach zero around 2033 and the headcount ratio around 2047, assuming the current pace holds. That is slow, but at least the direction is right.
+- **Unemployment** is stuck. The headline rate is low but not changing in any meaningful way. Getting to "zero unemployment" in any real sense would require a fundamentally different kind of labour market — one that addresses underemployment, informality, and skills mismatch.
+- **Carbon** is going the wrong way. Emissions are not just failing to decline; they are actively increasing every year. Under the current trend, they will keep rising. This is the farthest any pillar is from its target.
 
 ### 4.7 Inter-Pillar Correlation Analysis
 
-Pearson correlation coefficients were computed between the annual pillar scores.
+This is probably the most interesting part of the analysis. Here is the correlation matrix between the three pillar scores:
 
 **Table 9: Correlation Matrix of Pillar Scores**
 
@@ -398,85 +385,87 @@ Pearson correlation coefficients were computed between the annual pillar scores.
 | **Unemployment (U)** | 0.329 | 1.000 | −0.595 |
 | **Carbon (C)** | −0.939 | −0.595 | 1.000 |
 
-The correlation results reveal important structural relationships:
+**Poverty vs. Carbon (r = −0.939):** This is the big finding. The correlation is almost perfectly negative, which means that the years in which Bangladesh made the most progress on poverty were the same years in which carbon performance got worse. That is not a coincidence — the economic growth that pulls people out of poverty (more factories, more energy consumption, more urbanization) is also what drives emissions up. This result is statistically significant (well above the $|r| > 0.602$ threshold at 5% with $df = 9$), and it points to a real structural tension in Bangladesh's development model.
 
-**P–C correlation (r = −0.939):** The strongest finding is the near-perfect negative correlation between the poverty and carbon pillars. This means that over the study period, years in which Bangladesh made the most progress on poverty reduction were the same years in which carbon performance deteriorated the most. This is not coincidental — the economic growth that drives poverty reduction (industrial expansion, energy consumption, urbanization) is also the primary driver of emission increases. This represents the central tension in Bangladesh's development model: the pathways currently used to reduce poverty are carbon-intensive.
+**Unemployment vs. Carbon (r = −0.595):** There is a moderate negative relationship between employment progress and carbon performance. When jobs improve (usually through industrial growth), emissions tend to worsen. This correlation is close to but does not quite hit the 5% significance threshold, partly because COVID-19 created a year where employment crashed but carbon temporarily improved, which adds noise.
 
-The critical value for significance at the 5% level with $df = 9$ is $|r| > 0.602$. The P–C correlation ($|r| = 0.939$) far exceeds this threshold and is statistically significant.
-
-**U–C correlation (r = −0.595):** A moderate negative correlation exists between employment and carbon performance. When employment conditions improve (often through industrial expansion), carbon performance tends to worsen. This correlation approaches but does not quite reach the 5% significance threshold, partly because the COVID-19 disruption in 2020 (when employment collapsed but carbon temporarily improved) introduces noise.
-
-**P–U correlation (r = 0.329):** The weakest relationship is between poverty and employment. While one might expect strong positive correlation (employment gains should reduce poverty), the observed relationship is only weakly positive. This may reflect several factors: much of Bangladesh's employment is in low-wage informal work that does not reliably lift households above the poverty line; poverty reduction has been driven partly by remittances and social protection rather than domestic employment; and the COVID-19 shock created a year (2020) in which employment collapsed while poverty increased only moderately (due to government support measures).
+**Poverty vs. Unemployment (r = 0.329):** This one surprised me. I expected a stronger positive correlation — intuitively, better employment should mean less poverty. But the relationship is weak. Looking at the data, I think there are a few reasons. A lot of employment in Bangladesh is informal and low-paid, so having a job does not necessarily mean escaping poverty. Poverty reduction has also been driven by factors other than domestic jobs — like remittances from workers abroad and government safety nets. And COVID-19 created a year (2020) where employment collapsed but poverty only rose modestly, which dilutes the correlation.
 
 ---
 
 ## 5. Discussion
 
-### 5.1 The Imbalanced Triangle
+### 5.1 An Imbalanced Picture
 
-The overarching finding of this study is that Bangladesh's progress toward the three zeros is structurally imbalanced. The poverty pillar has seen genuine, sustained improvement. The employment pillar has shown capacity for progress but remains vulnerable to shocks and is held back by informal labor market structures. The carbon pillar is deteriorating.
+The main thing the data shows is that Bangladesh's progress toward the three zeros is lopsided. Poverty reduction is going well. Employment is improving but unstable. And carbon emissions are getting worse.
 
-This imbalance is not unique to Bangladesh — it is characteristic of many developing economies pursuing growth-led poverty reduction strategies. Economic growth, particularly in manufacturing and energy-intensive sectors, generates employment and raises incomes, but it also increases emissions. The question for Bangladesh is whether this trade-off is inevitable or whether alternative development pathways exist that can reduce poverty and create employment without proportionally increasing carbon output.
+This kind of imbalance is probably not unique to Bangladesh. It is likely a feature of many developing countries that are trying to grow their way out of poverty. Economic growth based on manufacturing and energy-intensive industry creates jobs and raises incomes, but it also pushes emissions up. The question is whether this trade-off is unavoidable, or whether there are alternative ways to develop that do not have the same carbon cost.
 
-The strong negative correlation between the poverty and carbon pillars (r = −0.94) quantifies this trade-off. From a policy perspective, this finding argues against approaches that treat the three zeros independently. A ministry of finance focused solely on poverty might pursue policies (e.g., coal-based industrialization, infrastructure expansion) that advance its mandate while worsening another ministry's carbon targets. The 3 Zero framework's insistence on treating the goals as interconnected is supported by the data — but the data also shows that interconnection currently manifests as tension rather than synergy.
+The r = −0.94 correlation between the poverty and carbon pillars puts a number on this trade-off. It is a strong result, and it has a clear practical implication: if Bangladesh keeps reducing poverty the same way it has been — through industrialization and fossil-fuel-powered growth — the carbon pillar will keep getting worse. The 3 Zero Movement's argument that the three goals are interconnected is supported by the data, but the connection is currently adversarial rather than cooperative.
 
-### 5.2 Poverty Reduction: Strong but Incomplete
+### 5.2 Poverty: Good Progress, Real Limits
 
-The poverty pillar's performance is the clearest success story in the data. The headcount ratio declined from 26.4% to 17.8%, and the MPI roughly halved over the decade. These gains reflect the cumulative effect of several factors: sustained economic growth, expansion of the RMG sector, remittance inflows from migrant workers, microfinance penetration, and government social safety net programs (BBS, 2022; World Bank, 2023).
+The poverty numbers are genuinely encouraging. Going from 26.4% to 17.8% on the headcount ratio, and roughly halving the MPI, in a single decade is a real achievement. This reflects a combination of steady economic growth, the RMG sector providing employment, remittances from Bangladeshi workers abroad, microfinance programs, and government social safety nets (World Bank, 2023; BBS, 2022).
 
-However, several qualifications are important. First, the pace of poverty reduction appears to be slowing. The linear regression slope of −0.76 pp/year, if extrapolated, suggests it would take until approximately 2047 to reach zero — a timeline that would miss the SDG target by 17 years. Second, the COVID-19 reversal demonstrated that poverty gains are fragile in the absence of strong social protection. Third, inequality of outcomes persists: rural poverty rates remain substantially higher than urban rates, and specific regions (Rangpur, Mymensingh) continue to lag behind national averages.
+But there are limits. The regression slope of −0.76 pp/year implies it would take until about 2047 to reach zero poverty — which would miss the SDG deadline by 17 years. And that assumes the trend stays linear, which it probably will not; the last few percentage points of poverty are typically the hardest to reach because they involve the most marginalized and hardest-to-serve populations. The COVID-19 setback also showed that without stronger social protection, gains can be reversed quickly.
 
-The 3 Zero Movement's emphasis on social business and entrepreneurship as pathways out of poverty has merit, but the data does not allow us to isolate the specific contribution of Yunus-inspired programs from broader macroeconomic trends. This is a limitation that future research with more granular data could address.
+There are also geographic gaps. Poverty is still much worse in rural areas and in northern divisions like Rangpur, compared to the industrial centers of Dhaka and Chittagong. Getting to zero would require closing these spatial gaps, which is a harder problem than reducing the national average.
 
-### 5.3 Employment: Structural Weaknesses Masked by Headline Numbers
+### 5.3 Employment: The Numbers Deceive
 
-The employment pillar presents the most complex picture. The headline unemployment rate of approximately 4.2% is low by international standards but conceals deep structural issues. The near-zero linear trend in unemployment ($\beta \approx 0$, $R^2 \approx 0$) indicates that the labor market is not undergoing meaningful structural transformation — it is simply fluctuating around a stable (and misleadingly low) baseline.
+The employment pillar is tricky to assess because the headline unemployment rate of about 4.2% does not really capture the problem. The regression found essentially no trend ($\beta \approx 0$, $R^2 \approx 0$), which means the labour market is not undergoing any structural improvement — at least not the kind that shows up in unemployment statistics.
 
-The real employment challenge in Bangladesh is not unemployment per se but the quality of employment. Underemployment, informal work without contracts or benefits, low wages in the garment sector, and the mismatch between educational credentials and available jobs collectively define a labor market that is far from the "zero unemployment" vision of the 3 Zero Movement.
+The real issues are underemployment, informality, and what might be called "working poverty" — having a job but still not earning enough to live decently. The 3 Zero Movement's vision of zero unemployment presumably means something more than the BBS definition of employment (one hour of work per week). It means everyone having meaningful, productive work. Bangladesh is a long way from that.
 
-Female labour force participation, however, is a bright spot. The increase from 33.5% to 42.0% over the decade, with a strong linear trend ($\beta = +0.72$ pp/year, $R^2 = 0.85$), reflects both the pull of the RMG sector and broader social changes. If this trend continues, female LFPR could approach 50% by the early 2030s, which would represent a significant structural shift in a traditionally conservative labor market.
+The female LFPR trend is one genuinely positive thing. Going from 33.5% to 42.0% over a decade, with a solid regression fit ($R^2 = 0.85$), shows that women are entering the workforce in larger numbers. If this continues, it could reach about 50% by the early 2030s. But whether these jobs are good jobs — well-paid, safe, with some security — is a separate question that the data used here cannot answer.
 
-The COVID-19 collapse of the employment pillar (from 0.886 to 0.129 in one year) was the most dramatic single-year movement in the entire dataset. It highlights that the 3 Zero framework must account for resilience — not just progress, but the capacity to maintain gains in the face of shocks.
+The COVID-19 crash (employment pillar going from 0.886 to 0.129 in one year) was the sharpest single movement in the dataset. It suggests that the 3 Zero framework should think not just about progress but about resilience — the ability to hold onto gains when a shock hits.
 
-### 5.4 Carbon Emissions: The Critical Bottleneck
+### 5.4 Carbon: The Bottleneck
 
-The carbon pillar is the most concerning dimension of the analysis. Total CO₂ emissions grew by approximately 54% over the decade, from 64.8 Mt to 99.8 Mt. Per capita emissions, while still low in global terms, increased by 36%. The linear trend is strongly positive ($\beta = +3.24$ Mt/year, $R^2 = 0.95$), with no sign of the trajectory bending toward reduction, let alone toward zero.
+The carbon pillar is where the news is worst. Emissions went up 54% over the decade. The trend is strongly positive and very consistent ($R^2 = 0.95$). There is no sign of the trajectory bending downward. Under linear extrapolation, emissions will just keep rising — which is obviously incompatible with any version of "zero net carbon emissions."
 
-The tension between economic development and emission reduction is well-documented in the literature on developing countries (Stern, 2007). Bangladesh's case follows the pattern: energy demand rises with industrialization and urbanization, and the energy mix remains dominated by fossil fuels (primarily natural gas, with growing coal capacity). The ambitious plans for coal-fired power generation, including the controversial Rampal and Payra plants, represent a deliberate policy choice to prioritize energy access and industrial competitiveness over emission reduction (Ahmed & Hossain, 2018).
+Bangladesh is in a tough position here. Its per-capita emissions are low — about 0.57 tonnes, compared to a global average of 4.7 tonnes — so there is a legitimate fairness argument that the country should not be expected to cut emissions while it is still developing. But the aggregate numbers are rising fast, and the country itself is among the most vulnerable to climate change. The costs of inaction fall disproportionately on Bangladesh.
 
-The renewable energy dimension offers some encouragement. The share of renewables grew from 2.8% to 4.5%, and the Solar Home System program has demonstrated that decentralized solar can be deployed at scale. But the rate of renewable growth (+0.17 pp/year) is an order of magnitude too slow to offset fossil fuel expansion. Under linear extrapolation, it would take centuries for renewables to reach dominance — an obviously impractical timeline.
+Renewable energy is growing, but at 0.17 percentage points per year, it is far too slow to make a dent. The Solar Home System program has been a success in off-grid areas, but grid-scale renewable deployment has lagged behind.
 
-For Bangladesh to make meaningful progress on the carbon pillar without sacrificing the poverty and employment gains, a fundamental reorientation of energy and industrial policy would be required. This might include accelerated deployment of grid-scale solar and wind; phase-down of coal plant construction; energy efficiency mandates for industry; and international climate finance to support the transition. The 3 Zero Movement's social business concept could potentially contribute through green microenterprises (e.g., solar installation, e-waste recycling, sustainable agriculture), but these remain niche activities relative to the scale of the emissions challenge.
+If the 3 Zero Movement is serious about the carbon target, this pillar needs a fundamentally different approach. The social business model could play a role — solar microenterprises, sustainable agriculture cooperatives, waste-to-energy projects — but these are still small-scale relative to the size of the problem. What would really move the needle is a shift in energy and industrial policy: less coal, more grid-scale renewables, energy efficiency standards. That is more of a government-level change than a social-business-level change.
 
-### 5.5 The COVID-19 Disruption as a Stress Test
+### 5.5 What COVID-19 Revealed
 
-The year 2020 serves as an unintended stress test of the 3 Zero framework. The pandemic's impact was asymmetric across pillars: the employment pillar collapsed, the poverty pillar dipped moderately, and the carbon pillar temporarily improved (as reduced economic activity lowered emissions). The composite 3ZPI dropped from 0.669 to 0.430, erasing roughly five years of progress in a single year.
+The pandemic year of 2020 worked almost like a natural experiment for the 3 Zero framework. Economic activity dropped, and the three pillars responded differently:
 
-The recovery trajectory is equally informative. By 2023, the 3ZPI had not only recovered but exceeded its pre-pandemic peak (0.752 vs. 0.669). However, this recovery was driven primarily by the poverty and employment pillars bouncing back, while the carbon pillar continued its decline. The pandemic briefly demonstrated what reduced economic activity means for emissions — and the rapid post-pandemic rebound in emissions shows that the improvement was entirely a side-effect of economic contraction rather than any structural shift.
+- Poverty went up modestly (pillar score dropped from 0.724 to 0.603).
+- Employment collapsed (0.886 → 0.129).
+- Carbon temporarily improved (0.398 → 0.557), since less economic activity meant fewer emissions.
+
+By 2023, the 3ZPI had exceeded its pre-pandemic peak (0.752 vs. 0.669). But the recovery was driven by poverty and employment bouncing back — the carbon pillar continued getting worse as economic activity (and emissions) resumed. The brief carbon improvement was not a structural change; it was just a recession effect that reversed as soon as growth returned.
 
 ### 5.6 Limitations
 
-This study has several important limitations that should be considered when interpreting the results.
+I want to be upfront about the limitations, since some of them are significant:
 
-First, the analysis relies entirely on secondary data from institutional sources. While these sources are credible, they involve measurement assumptions, survey methodologies, and estimation procedures that introduce uncertainty. Poverty and MPI figures, in particular, are available only for survey years and were interpolated for intermediate years — this smoothing may mask year-to-year volatility.
+1. **All secondary data.** I did not collect any primary data — no surveys, no interviews. Everything comes from institutional sources (World Bank, BBS, ILO, etc.). These are credible sources, but they come with their own measurement issues and assumptions.
 
-Second, the sample size for time-series analysis is small ($n = 11$). With only eleven data points, the statistical power of the linear regression and correlation analyses is limited. The $R^2$ values and correlation coefficients should be interpreted as descriptive summaries of the observed pattern rather than as evidence for strong causal claims.
+2. **Small sample size.** With only 11 data points (one per year), the statistical power of the regressions and correlations is limited. The results should be read as descriptions of the observed pattern, not as strong evidence for causal claims. A longer time series would make the statistical analysis more robust.
 
-Third, the 3ZPI formulation involves methodological choices — indicator selection, normalization bounds, weighting — that influence the results. The sensitivity analysis demonstrates that the qualitative conclusions are robust to alternative weights, but other choices (e.g., different indicators, geometric rather than arithmetic aggregation, or absolute rather than relative normalization) could produce different numerical outcomes.
+3. **Interpolated data.** Poverty and MPI data are only available for survey years (roughly every 5–6 years). I interpolated linearly for the years in between, which smooths out any actual year-to-year variation and introduces some uncertainty.
 
-Fourth, the study does not establish causation. The strong negative correlation between poverty and carbon pillars reflects co-movement over time, but the underlying causal mechanisms (economic growth driving both poverty reduction and emission increases) are inferred rather than formally tested.
+4. **Methodological choices.** The 3ZPI depends on decisions I made — which indicators to include, how to normalize them, how to weight the pillars. The sensitivity analysis shows that the broad conclusions are robust to different weights, but a different set of indicators or a different aggregation method (geometric mean instead of arithmetic, for example) could give somewhat different numbers.
 
-Fifth, the single-country focus limits generalizability. While the methodology is designed to be replicable, the specific findings about pillar trajectories and inter-pillar relationships are particular to Bangladesh's development context.
+5. **No causation.** The strong negative correlation between poverty and carbon does not prove that poverty reduction causes emission increases. Both are likely driven by a common factor — economic growth — but I have not tested that formally. The correlation shows co-movement, not mechanism.
 
-### 5.7 Regional Comparison
+6. **Single country.** This study looks only at Bangladesh. The methodology is designed to be applicable elsewhere, but the specific results about which pillar is ahead or behind are particular to the Bangladeshi context.
 
-For contextual perspective, a brief comparison with other South Asian economies is informative:
+### 5.7 Brief Regional Comparison
 
-- **India:** Similar GDP growth trajectory with far larger absolute emissions. Per capita CO₂ is approximately 1.9 tonnes (about 3× Bangladesh), while the poverty headcount has also declined substantially. India faces the same growth-emissions tension at a larger scale.
-- **Sri Lanka:** Higher per-capita income and lower poverty rates, but the 2022 economic crisis demonstrated the fragility of development gains. Per capita emissions (~1.0 t CO₂) are lower than India but higher than Bangladesh.
-- **Nepal:** Lower emissions per capita than Bangladesh, but much higher poverty rates and limited industrial base. Nepal's challenge is accelerating development without replicating the emission trajectory of its neighbors.
+To put the Bangladesh results in perspective, here is a quick look at some neighbors:
 
-Bangladesh's position is distinctive: relatively strong poverty reduction performance, a large and expanding (if precarious) employment base, and rising but still low per-capita emissions. The window for pursuing a lower-carbon development pathway may be narrowing as infrastructure investment decisions made now will lock in emission trajectories for decades.
+- **India** has a similar growth trajectory but much larger absolute emissions and per-capita CO₂ of about 1.9 tonnes — roughly 3× Bangladesh. India faces the same growth-vs-emissions tension, just at a bigger scale.
+- **Sri Lanka** had higher income and lower poverty before the 2022 economic crisis, which showed how quickly development gains can unravel. Its per-capita CO₂ (~1.0 t) is between India and Bangladesh.
+- **Nepal** has lower emissions than Bangladesh but higher poverty and a smaller industrial base. Its challenge is to develop without following the same carbon trajectory as its neighbors.
+
+Bangladesh stands out in this group for having strong poverty reduction, a large (if precarious) employment base, and rising but still relatively low per-capita emissions. The window for choosing a lower-carbon development path is still open, but it may be narrowing as energy infrastructure decisions get locked in.
 
 ---
 
@@ -484,57 +473,55 @@ Bangladesh's position is distinctive: relatively strong poverty reduction perfor
 
 ### 6.1 Summary of Findings
 
-This study evaluated Bangladesh's progress toward the three zero targets — zero poverty, zero unemployment, and zero net carbon emissions — over the period 2013–2023 using eight secondary data indicators aggregated into a composite 3 Zero Progress Index (3ZPI).
+This study tried to answer a simple question: how is Bangladesh actually doing on the three zeros? Using eight indicators, a composite index, regression analysis, and correlation, here is what I found:
 
-The principal findings are as follows:
+1. **The composite 3ZPI went from 0.392 to 0.752 over the decade.** That is meaningful progress overall, though COVID-19 caused a sharp setback in 2020.
 
-1. **The composite 3ZPI increased from 0.392 to 0.752 over the decade**, indicating meaningful aggregate progress toward the three zero goals, though with a significant COVID-19 disruption in 2020.
+2. **The three pillars are on very different trajectories.** Poverty has improved strongly (0.00 → 1.00). Employment improved but crashed during COVID and is still recovering (0.51 → 0.92). Carbon got worse (0.67 → 0.33).
 
-2. **Progress is highly uneven across pillars.** The poverty pillar showed the strongest improvement (score: 0.00 → 1.00), the employment pillar showed strong but volatile progress (0.51 → 0.92), and the carbon pillar deteriorated (0.67 → 0.33).
+3. **There is a strong negative correlation (r = −0.94) between poverty reduction and carbon performance.** This is probably the most important finding — it means that the way Bangladesh is currently reducing poverty (through carbon-intensive economic growth) directly conflicts with the carbon target.
 
-3. **A strong negative correlation (r = −0.94) exists between the poverty and carbon pillars**, indicating that the economic growth processes driving poverty reduction simultaneously increase carbon emissions. This represents the central structural challenge for the 3 Zero Movement in Bangladesh.
+4. **At current rates, poverty targets are approachable** (MPI by ~2033, headcount by ~2047), **unemployment is not trending toward zero at all**, and **carbon emissions are going in the wrong direction**.
 
-4. **Linear extrapolation suggests that poverty targets are approachable** (MPI near zero by ~2033, headcount by ~2047), **unemployment shows no trend toward reduction** due to structural labor market rigidities, and **carbon emissions are moving in the wrong direction** with no projected reversal under current trends.
-
-5. **The 3ZPI is robust to alternative weighting schemes.** The carbon-heavy weighting produces the lowest score, confirming the carbon pillar as the binding constraint on overall progress.
+5. **The results are robust to different weighting choices.** Regardless of how you weight the pillars, the same pattern emerges: poverty is strong, employment is unstable, and carbon is the weakest link.
 
 ### 6.2 Recommendations
 
-Based on the quantitative findings, the following recommendations are offered:
+Based on what the data shows, I would suggest the following:
 
 **For policymakers:**
 
-1. **Adopt an integrated 3 Zero monitoring framework.** The siloed treatment of poverty, employment, and environmental goals across different ministries is a structural impediment. A composite index like the 3ZPI, updated annually and disaggregated to the division level, would provide a common reference point for cross-ministerial coordination.
+1. **Use an integrated monitoring framework.** Right now, poverty, employment, and environment are tracked by different agencies with different timelines. A composite index like the 3ZPI, updated annually, could give policymakers a single dashboard view of progress across all three goals.
 
-2. **Prioritize the carbon pillar.** The analysis identifies carbon emissions as the most off-track dimension and the only pillar moving away from its target. Policy interventions should focus on accelerating renewable energy deployment (grid-scale solar, wind), phasing down new coal capacity, and implementing energy efficiency standards in industry and construction.
+2. **Focus on the carbon pillar.** The data is clear: this is the pillar that is off-track. Accelerating renewable energy deployment, reconsidering new coal capacity, and setting energy efficiency standards for industry would all help. International climate finance should be part of the picture, given Bangladesh's low per-capita responsibility for emissions.
 
-3. **Improve employment quality, not just quantity.** The near-zero trend in headline unemployment masks deeper problems of underemployment, informality, and educated youth joblessness. Labor market reforms should target formalization of informal employment, skills alignment with industry demand, and support for micro and small enterprises.
+3. **Go beyond headline unemployment.** The 4.2% figure is not very useful. Policies should target underemployment, formalization of informal work, and the skills mismatch that leaves educated young people without jobs.
 
-4. **Strengthen shock resilience.** The COVID-19 disruption demonstrated that development gains — especially in employment — can evaporate rapidly. Expanding social protection coverage and building fiscal buffers for countercyclical spending would reduce vulnerability to future shocks.
+4. **Build resilience.** COVID-19 showed that employment gains can disappear in a single year. Expanding social protection and building fiscal buffers for crisis response would help protect progress.
 
-**For the 3 Zero Movement and allied organizations:**
+**For the 3 Zero Movement:**
 
-5. **Invest in green social businesses.** The intersection of employment creation and emission reduction is an underdeveloped space. Social business models in solar energy distribution, sustainable agriculture, waste management, and energy-efficient construction could advance both the employment and carbon pillars simultaneously.
+5. **Develop green social businesses.** There is an obvious opportunity at the intersection of employment and carbon — businesses that create jobs while reducing emissions. Solar installation cooperatives, sustainable agriculture, waste management enterprises — these align with both the employment and carbon pillars.
 
-6. **Publish regular 3 Zero progress assessments.** The Yunus Centre and affiliated organizations are well-positioned to commission and disseminate annual data-driven progress reports. This would shift the discourse from aspirational messaging to evidence-based accountability.
+6. **Publish data-driven progress reports.** The 3 Zero Movement would benefit from shifting some of its communication from aspirational messaging to evidence-based reporting. A regular, publicly available assessment using something like the 3ZPI would build credibility and accountability.
 
 **For future research:**
 
-7. **Extend the 3ZPI to subnational analysis.** Division-level or district-level application of the index would reveal spatial inequalities in 3 Zero progress and enable more targeted interventions.
+7. **Apply the index at the subnational level.** A district-level or division-level 3ZPI would show where progress is concentrated and where it is lacking. That kind of spatial analysis could help target interventions more effectively.
 
-8. **Explore nonlinear trend models.** Linear extrapolation is a useful baseline but unrealistic for long-term projection. Logistic or polynomial models would capture the likely deceleration of poverty reduction as the headcount approaches zero and the acceleration required for emission reduction.
+8. **Try nonlinear models.** Linear extrapolation is a useful starting point, but poverty reduction is likely to slow as the headcount gets lower (the hardest cases are last), and emission reduction would need to accelerate rather than just reverse. Logistic curves or other nonlinear models would give more realistic projections.
 
-9. **Incorporate primary data.** This study relied entirely on secondary data. Future research should include primary surveys and interviews with beneficiaries of 3 Zero-aligned programs to capture qualitative dimensions — perceived quality of employment, barriers to clean energy adoption, and the lived experience of poverty reduction — that aggregate statistics cannot convey.
+9. **Collect primary data.** What this study cannot capture is the qualitative side — how people experience employment, what barriers exist to clean energy adoption, what poverty reduction actually feels like on the ground. Surveys and interviews would add depth that secondary statistics miss.
 
-10. **Conduct multi-country comparative studies.** Applying the 3ZPI methodology to other South Asian countries (India, Nepal, Sri Lanka) would enable comparative analysis of development trajectories and illuminate whether the poverty–carbon trade-off observed in Bangladesh is a regional pattern or a country-specific phenomenon.
+10. **Do a multi-country comparison.** Running the same 3ZPI methodology for India, Nepal, and Sri Lanka would show whether the poverty-carbon trade-off is specific to Bangladesh or a regional pattern.
 
 ### 6.3 Concluding Remarks
 
-Professor Muhammad Yunus's 3 Zero Movement offers a compelling vision for the future of economic organization — a world without poverty, without unemployment, and without the environmental destruction that threatens both. This study has attempted to bring quantitative rigor to the evaluation of that vision in the context of Bangladesh, where Yunus's ideas first took root and where the challenges of development are most acutely felt.
+The 3 Zero Movement asks for something ambitious: an economic system that produces no poverty, no unemployment, and no environmental damage. This study did not try to evaluate whether that vision is achievable. What it tried to do is much simpler — measure where Bangladesh stands right now against those three goals, using the mathematical tools available to an applied mathematics student.
 
-The numbers tell a story that is neither wholly optimistic nor wholly pessimistic. Bangladesh has made real progress on poverty and employment. But the carbon dimension — the third zero — is moving in the wrong direction, and the strong negative correlation between poverty reduction and emission growth suggests that the current development model cannot deliver all three zeros without fundamental structural changes to energy production, industrial processes, and economic incentives.
+The picture that emerges is mixed. Bangladesh is making real progress on poverty, meaningful but fragile progress on employment, and going backwards on carbon. The strong negative correlation between the poverty and carbon pillars is perhaps the most important takeaway — it suggests that the current development model, while effective at reducing poverty, is not compatible with the carbon target. Something has to change in how growth happens, not just how fast it happens.
 
-The 3 Zero Progress Index proposed in this study is a small contribution: a simple mathematical tool for tracking whether aspirational goals are being translated into measurable reality. Its value lies not in the specific numbers it produces but in the questions it forces us to ask — which pillar is lagging, why, and what can be done about it. If this framework helps shift even a small part of the conversation from aspiration to accountability, it will have served its purpose.
+The 3 Zero Progress Index is a simple tool. It uses min-max normalization, weighted averages, and linear regression — nothing that would be out of place in an introductory applied statistics course. But sometimes simple tools, applied to the right question, can be useful. If the 3ZPI helps make the conversation about the 3 Zero Movement a little more concrete and a little more data-driven, then it has done what I hoped it would.
 
 ---
 
@@ -594,4 +581,4 @@ The 3 Zero Progress Index proposed in this study is a small contribution: a simp
 
 ---
 
-*Corresponding author: Minhajul Abedin, Department of Applied Mathematics. 4th year undergraduate with research interests in applied data analysis, quantitative modeling for development, and computational methods in social science.*
+*Corresponding author: Minhajul Abedin, Department of Applied Mathematics. 4th year undergraduate with research interests in data science, applied mathematical modeling, and computational approaches to social questions.*
