@@ -1,6 +1,6 @@
 # Research Article Outline: Exploring the Impact of the 3 Zero Movement in Bangladesh
 > Last updated: 2026-03-28
-> Status: Draft
+> Status: Active — Full draft completed in paper-article.md
 > Author: Minhajul Abedin
 > Affiliation: Department of Applied Mathematics
 > Conference: 18th International Conference on Engineering & Natural Sciences (Kyrenia, TRNC, December 2025)
@@ -326,19 +326,22 @@ $$r_{XY} = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum (X_i - \bar{X})
 
 ## Tasks
 
-- [ ] Collect all quantitative data for the 8 indicators (2013–2023)
-- [ ] Build the normalization and 3ZPI calculation pipeline (Python/R script)
-- [ ] Run trend analysis (linear regression) for each indicator
-- [ ] Compute correlation matrix across pillar scores
-- [ ] Perform gap analysis and linear extrapolation
-- [ ] Draft the Literature Review section with proper citations
-- [ ] Draft the Methodology section with mathematical formulations
-- [ ] Populate Section 6 with actual results
-- [ ] Write the Discussion section connecting findings to policy
-- [ ] Prepare all figures and tables
-- [ ] Revise and tighten the Abstract based on final results
+- [x] Collect all quantitative data for the 8 indicators (2013–2023)
+- [x] Build the normalization and 3ZPI calculation pipeline
+- [x] Run trend analysis (linear regression) for each indicator
+- [x] Compute correlation matrix across pillar scores
+- [x] Perform gap analysis and linear extrapolation
+- [x] Draft the Literature Review section with proper citations
+- [x] Draft the Methodology section with mathematical formulations
+- [x] Populate Section 6 with actual results
+- [x] Write the Discussion section connecting findings to policy
+- [x] Prepare all figures and tables (tables done; figures pending for LaTeX/visual version)
+- [x] Revise and tighten the Abstract based on final results
 - [ ] Format in LaTeX for journal/conference submission
 - [ ] Proofread and internal review
+- [ ] Verify all data points against original sources before submission
+
+> Full article draft completed: `drafts/paper-article.md` (2026-03-28)
 
 ---
 
