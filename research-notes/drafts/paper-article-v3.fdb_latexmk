@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex paper-article-v3"] 1774660650.2048 "paper-article-v3.aux" "paper-article-v3.bbl" "paper-article-v3" 1774660655.27775 0
-  "./references.bib" 1774660618 5068 a3b5d99212b37f72c2d773fadebf89ec ""
-  "C:/Program Files/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "paper-article-v3.aux" 1774660653 9382 575db29b82d6aa098ae2cb043d27764e "pdflatex"
+["bibtex paper-article-v3"] 1774686744.35546 "paper-article-v3.aux" "paper-article-v3.bbl" "paper-article-v3" 1774686748.86939 0
+  "./references.bib" 1774684425 4905 a3b5d99212b37f72c2d773fadebf89ec ""
+  "C:/Program Files/MiKTeX/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
+  "paper-article-v3.aux" 1774686747 9380 cde7429a9aacbdffba438ab1a28eb6e2 "pdflatex"
   (generated)
   "paper-article-v3.bbl"
   "paper-article-v3.blg"
   (rewritten before read)
-["pdflatex"] 1774660650.91227 "d:/Workflow/3zero/research-notes/drafts/paper-article-v3.tex" "paper-article-v3.pdf" "paper-article-v3" 1774660655.28056 0
+["pdflatex"] 1774686744.74603 "d:/Workflow/3zero/research-notes/drafts/paper-article-v3.tex" "paper-article-v3.pdf" "paper-article-v3" 1774686748.87293 0
   "../figures/fig1_poverty_trend.pdf" 1774660100 20545 2dc8f114dba2b34ef4ddde0e67d1ca97 ""
   "../figures/fig2_unemployment_trend.pdf" 1774660101 20125 4aff381f3ae7c7c3baa09a9b1978d27c ""
   "../figures/fig3_co2_trend.pdf" 1774660101 19745 42d30e2cafdbfbc559dc240dd159bd56 ""
@@ -129,11 +129,11 @@
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1200.pk" 1774555396 39120 671d62b6408f93deb359d13f46ac8343 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1774555394 24152 136392d71f06658ed37a66d91218a6dd ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1774440198 13323423 5a4d3a398788f77831346df050a9fbc9 ""
-  "d:/Workflow/3zero/research-notes/drafts/paper-article-v3.tex" 1774660634 19061 4a7e63123bda27b0f83d738a4d2202ef ""
-  "paper-article-v3.aux" 1774660653 9382 575db29b82d6aa098ae2cb043d27764e "pdflatex"
-  "paper-article-v3.bbl" 1774660650 4392 f58c2497f58b4535da0eba0da7056c91 "bibtex paper-article-v3"
-  "paper-article-v3.out" 1774660653 5125 12ef438c9b38693ab6f535d9546d73eb "pdflatex"
-  "paper-article-v3.tex" 1774660634 19061 4a7e63123bda27b0f83d738a4d2202ef ""
+  "d:/Workflow/3zero/research-notes/drafts/paper-article-v3.tex" 1774686737 18701 25c3bf0b2072d57c5426995735cee3af ""
+  "paper-article-v3.aux" 1774686747 9380 cde7429a9aacbdffba438ab1a28eb6e2 "pdflatex"
+  "paper-article-v3.bbl" 1774686744 4392 27daede6a62f31ffd8e570539543a495 "bibtex paper-article-v3"
+  "paper-article-v3.out" 1774686747 5125 12ef438c9b38693ab6f535d9546d73eb "pdflatex"
+  "paper-article-v3.tex" 1774686737 18701 25c3bf0b2072d57c5426995735cee3af ""
   (generated)
   "paper-article-v3.aux"
   "paper-article-v3.log"
