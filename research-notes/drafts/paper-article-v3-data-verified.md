@@ -522,4 +522,4 @@ The 3ZPI is a simple tool. Min-max normalization, weighted averages, and linear 
 
 ---
 
-*Corresponding author: Minhajul Abedin, Department of Applied Mathematics, Noakhali Science and Technology University (NSTU), Bangladesh. 4th year undergraduate with research interests in data science, applied mathematical modeling, and computational approaches to social questions.*
+*Corresponding author: Minhajul Abedin, Department of Applied Mathematics, Noakhali Science and Technology University (NSTU), Bangladesh.*
