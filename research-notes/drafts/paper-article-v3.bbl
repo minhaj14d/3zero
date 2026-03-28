@@ -10,34 +10,40 @@
 \newblock {Bangladesh} development update: Resilience under test.
 \newblock Technical report, World Bank Group, Washington, DC,
   2023{\natexlab{a}}.
+\newblock URL
+  \url{https://www.worldbank.org/en/country/bangladesh/publication/bangladesh-development-update}.
 
 \bibitem[Yunus(2017)]{yunus2017three}
 Muhammad Yunus.
 \newblock \emph{A World of Three Zeros: The New Economics of Zero Poverty, Zero
   Unemployment, and Zero Net Carbon Emissions}.
-\newblock PublicAffairs, 2017.
+\newblock PublicAffairs, New York, 2017.
+\newblock ISBN 9781610398015.
 
 \bibitem[Yunus(2007)]{yunus2007banker}
 Muhammad Yunus.
 \newblock \emph{Banker to the Poor: Micro-Lending and the Battle Against World
   Poverty}.
-\newblock PublicAffairs, 2007.
+\newblock PublicAffairs, New York, 2007.
+\newblock ISBN 9781586481988.
 
 \bibitem[{United Nations}(2015)]{un2015sdg}
 {United Nations}.
 \newblock Transforming our world: The 2030 agenda for sustainable development.
 \newblock UN General Assembly Resolution A/RES/70/1, 2015.
+\newblock URL \url{https://undocs.org/A/RES/70/1}.
 
 \bibitem[{Yunus Social Business}(2021)]{yunussb2021}
 {Yunus Social Business}.
 \newblock 2020 annual report.
-\newblock Technical report, Global Yunus Social Business, 2021.
-\newblock \url{https://www.yunussb.com/articles/2020-annual-report}.
+\newblock Technical report, Yunus Social Business Global Initiatives, 2021.
+\newblock URL \url{https://www.yunussb.com/articles/2020-annual-report}.
 
 \bibitem[{World Bank}(2023{\natexlab{b}})]{wb2023wdi}
 {World Bank}.
 \newblock World development indicators.
-\newblock Data set. \url{https://data.worldbank.org}, 2023{\natexlab{b}}.
+\newblock Dataset, 2023{\natexlab{b}}.
+\newblock URL \url{https://data.worldbank.org}.
 
 \bibitem[Khandker(2005)]{khandker2005}
 Shahidur~R. Khandker.
@@ -45,12 +51,14 @@ Shahidur~R. Khandker.
   {Bangladesh}.
 \newblock \emph{The World Bank Economic Review}, 19\penalty0 (2):\penalty0
   263--286, 2005.
+\newblock \doi{10.1093/wber/lhi008}.
 
 \bibitem[Morduch(1999)]{morduch1999}
 Jonathan Morduch.
 \newblock The microfinance promise.
 \newblock \emph{Journal of Economic Literature}, 37\penalty0 (4):\penalty0
   1569--1614, 1999.
+\newblock \doi{10.1257/jel.37.4.1569}.
 
 \bibitem[Banerjee et~al.(2015)Banerjee, Duflo, Glennerster, and
   Kinnan]{banerjee2015miracle}
@@ -58,57 +66,82 @@ Abhijit Banerjee, Esther Duflo, Rachel Glennerster, and Cynthia Kinnan.
 \newblock The miracle of microfinance? {Evidence} from a randomized evaluation.
 \newblock \emph{American Economic Journal: Applied Economics}, 7\penalty0
   (1):\penalty0 22--53, 2015.
+\newblock \doi{10.1257/app.20130533}.
 
 \bibitem[{World Bank}(2021)]{wb2021covid}
 {World Bank}.
-\newblock {Bangladesh} {COVID}-19 poverty monitoring survey.
+\newblock {Bangladesh} {COVID-19} poverty monitoring survey.
 \newblock Technical report, World Bank Group, Washington, DC, 2021.
+\newblock URL
+  \url{https://www.worldbank.org/en/country/bangladesh/publication/bangladesh-covid-19-poverty-monitoring}.
 
 \bibitem[{International Labour Organization}(2023)]{ilo2023}
 {International Labour Organization}.
 \newblock World employment and social outlook: Trends 2023.
-\newblock Technical report, ILO, Geneva, 2023.
+\newblock Technical report, International Labour Organization, Geneva, 2023.
+\newblock URL
+  \url{https://www.ilo.org/global/research/global-reports/weso/WCMS_865332/lang--en/index.htm}.
 
-\bibitem[Selim et~al.(2021)Selim, Farooq, and Rahman]{selim2021youth}
-Mohammad Selim, Mohammad~Omar Farooq, and Mahbubur Rahman.
+\bibitem[Rahman et~al.(2021)Rahman, Farooq, and Selim]{selim2021youth}
+Mahbubur Rahman, Mohammad~Omar Farooq, and Mohammad Selim.
 \newblock Mitigating educated youth unemployment in {Bangladesh}.
 \newblock \emph{Journal of Developing Areas}, 55\penalty0 (1):\penalty0
   185--200, 2021.
+\newblock \doi{10.1353/jda.2021.0014}.
+\newblock Author order corrected from original file (was listed as Selim,
+  Farooq, Rahman; verified order is Rahman, Farooq, Selim per publisher page at
+  Project MUSE).
 
-\bibitem[{Global Carbon Project}(2023)]{gcp2023}
-{Global Carbon Project}.
+\bibitem[Friedlingstein et~al.(2023)Friedlingstein, O'Sullivan, Jones, Andrew,
+  Bakker, Hauck, Landsch\"{u}tzer, {Le Qu\'{e}r\'{e}}, Luijkx, Peters, Peters,
+  Pongratz, Schwingshackl, Sitch, Canadell, Ciais, Jackson, et~al.]{gcp2023}
+Pierre Friedlingstein, Michael O'Sullivan, Matthew~W. Jones, Robbie~M. Andrew,
+  Dorothee C.~E. Bakker, Judith Hauck, Peter Landsch\"{u}tzer, Corinne {Le
+  Qu\'{e}r\'{e}}, Ingrid~T. Luijkx, Glen~P. Peters, Wouter Peters, Julia
+  Pongratz, Clemens Schwingshackl, Stephen Sitch, Josep~G. Canadell, Philippe
+  Ciais, Robert~B. Jackson, et~al.
 \newblock Global carbon budget 2023.
 \newblock \emph{Earth System Science Data}, 15\penalty0 (12):\penalty0
   5301--5369, 2023.
+\newblock \doi{10.5194/essd-15-5301-2023}.
+\newblock Lead author: Pierre Friedlingstein et al. The original entry
+  attributed authorship to \{Global Carbon Project\}; corrected to reflect
+  published authorship.
 
-\bibitem[Alam et~al.(2012)Alam, Begum, Buysse, and
-  Van~Huylenbroeck]{alam2012energy}
-Mohammad~Jahangir Alam, Ismat~Ara Begum, Jeroen Buysse, and Guido
-  Van~Huylenbroeck.
+\bibitem[Alam et~al.(2012)Alam, Begum, Buysse, and {Van
+  Huylenbroeck}]{alam2012energy}
+Mohammad~Jahangir Alam, Ismat~Ara Begum, Jeroen Buysse, and Guido {Van
+  Huylenbroeck}.
 \newblock Energy consumption, carbon emissions and economic growth nexus in
   {Bangladesh}: Cointegration and dynamic causality analysis.
 \newblock \emph{Energy Policy}, 45:\penalty0 217--225, 2012.
+\newblock \doi{10.1016/j.enpol.2012.02.022}.
 
 \bibitem[{Government of Bangladesh}(2021)]{gob2021ndc}
 {Government of Bangladesh}.
 \newblock Nationally determined contributions (updated) 2021.
 \newblock Technical report, Ministry of Environment, Forest and Climate Change,
-  2021.
+  Government of Bangladesh, Dhaka, 2021.
+\newblock URL
+  \url{https://unfccc.int/sites/default/files/NDC/2022-06/Bangladesh%20NDC%202021.pdf}.
 
-\bibitem[{IDCOL}(2020)]{idcol2020}
-{IDCOL}.
+\bibitem[{Infrastructure Development Company Limited}(2020)]{idcol2020}
+{Infrastructure Development Company Limited}.
 \newblock Annual report 2019--2020.
-\newblock Technical report, Infrastructure Development Company Limited, Dhaka,
-  2020.
+\newblock Technical report, Infrastructure Development Company Limited (IDCOL),
+  Dhaka, 2020.
+\newblock URL \url{https://idcol.org/home/publication}.
 
 \bibitem[{Germanwatch}(2021)]{germanwatch2021}
 {Germanwatch}.
 \newblock Global climate risk index 2021.
 \newblock Technical report, Germanwatch e.V., Bonn, 2021.
+\newblock URL \url{https://www.germanwatch.org/en/19777}.
 
 \bibitem[Stern(2007)]{stern2007}
 Nicholas Stern.
 \newblock \emph{The Economics of Climate Change: The {Stern} Review}.
-\newblock Cambridge University Press, 2007.
+\newblock Cambridge University Press, Cambridge, 2007.
+\newblock \doi{10.1017/CBO9780511817434}.
 
 \end{thebibliography}
