@@ -368,7 +368,7 @@ All three correlations exceed the 5% significance threshold of $|r| > 0.404$ (wi
 
 ## 5. Discussion
 
-### 5.1 A Diverging Triangle
+### 5.1 The Three Pillars Are Not Moving Together
 
 The central finding of this study is that Bangladesh's progress toward the three zeros is not just uneven — it is actively divergent. The poverty pillar is advancing rapidly. The unemployment pillar is drifting in the wrong direction. The carbon pillar is deteriorating. And the composite 3ZPI, which was supposed to measure overall progress, actually declined for most of the 2010s before recovering slightly.
 
@@ -376,19 +376,19 @@ This is a more sobering picture than I expected going into the analysis. The 3ZP
 
 The r = −0.978 correlation between poverty and CO₂ puts a number on this trade-off. It is one of the strongest correlations I have seen in any development dataset, and it has a clear implication: the way Bangladesh is currently reducing poverty is fundamentally incompatible with the carbon target. Both are driven by the same engine — economic growth based on fossil-fuel-powered industrialization — and they pull in opposite directions.
 
-### 5.2 Poverty: A Genuine Success
+### 5.2 Poverty Reduction Has Been Strong
 
 The poverty numbers are the clear success story. Going from 41.4% to 5.9% at the $3.00/day line in about two decades is remarkable. The regression slope of −1.48 pp/year, with R² = 0.988, indicates that the decline has been consistent and well-described by a straight line. If extrapolated, poverty at this threshold could approach zero by around 2027.
 
 There are reasons to be cautious about that projection. The linear model averages across periods of different decline rates — the reduction accelerated between 2016 and 2022 (from 19.5% to 5.9%, roughly 2.3 pp/year). The last few percentage points of extreme poverty are typically the hardest because they involve the most marginalized populations — geographically remote, disabled, elderly, or otherwise structurally excluded from the benefits of economic growth. But even with these caveats, the direction is clearly right.
 
-### 5.3 Youth Unemployment: Going Backwards
+### 5.3 Youth Unemployment Is Getting Worse
 
 The youth unemployment data tells a less encouraging story. The positive regression slope (+0.18 pp/year) means that over the 24-year study period, youth unemployment has been trending slightly upward, not downward. The moderate R² (0.423) reflects significant year-to-year fluctuation — unemployment dropped to 6.3% in 2010 but spiked to 13.5% in 2020 — but the overall trajectory is not pointing toward zero.
 
 This is particularly concerning in a country where over 30% of the population is under 25. The "educated unemployment" phenomenon — where degree-holders face higher joblessness than the uneducated — suggests a deep structural mismatch between what the education system produces and what the economy demands (Selim et al., 2021). The 3 Zero Movement's emphasis on entrepreneurship is one response, but the data does not show it moving the aggregate numbers in the right direction.
 
-### 5.4 Carbon Emissions: The Structural Constraint
+### 5.4 Carbon Emissions Keep Rising
 
 CO₂ per capita more than tripled over the study period, from 0.197 to 0.610 tonnes. The trend is strong and consistent (R² = 0.981). There is no sign of a plateau, let alone a decline. Bangladesh is still in the rising phase of its emissions trajectory.
 
