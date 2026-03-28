@@ -1,0 +1,4 @@
+indicator,slope_beta,intercept_alpha,r_squared,p_value,last_value,projected_year_to_zero
+poverty,-1.4754,40.605,0.988,0.0,5.9,2027
+youth_unemp,0.1827,7.3797,0.4227,0.000583,7.905,Never / wrong direction
+co2_pc,0.0196,0.1734,0.9806,0.0,0.61,Never / wrong direction

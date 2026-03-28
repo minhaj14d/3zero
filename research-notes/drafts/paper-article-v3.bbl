@@ -1,0 +1,113 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ahmed and Hossain(2018)]{ahmed2018environmental}
+S.~Ahmed and M.~Hossain.
+\newblock Environmental sustainability in {Bangladesh}: Progress and
+  challenges.
+\newblock \emph{Environmental Policy and Law}, 48\penalty0 (2):\penalty0
+  112--120, 2018.
+
+\bibitem[Banerjee et~al.(2015)Banerjee, Duflo, Glennerster, and
+  Kinnan]{banerjee2015miracle}
+Abhijit Banerjee, Esther Duflo, Rachel Glennerster, and Cynthia Kinnan.
+\newblock The miracle of microfinance? {Evidence} from a randomized evaluation.
+\newblock \emph{American Economic Journal: Applied Economics}, 7\penalty0
+  (1):\penalty0 22--53, 2015.
+
+\bibitem[{Germanwatch}(2021)]{germanwatch2021}
+{Germanwatch}.
+\newblock Global climate risk index 2021.
+\newblock Technical report, Germanwatch e.V., Bonn, 2021.
+
+\bibitem[{Global Carbon Project}(2023)]{gcp2023}
+{Global Carbon Project}.
+\newblock Global carbon budget 2023.
+\newblock \emph{Earth System Science Data}, 15\penalty0 (12):\penalty0
+  5301--5369, 2023.
+
+\bibitem[{Government of Bangladesh}(2021)]{gob2021ndc}
+{Government of Bangladesh}.
+\newblock Nationally determined contributions (updated) 2021.
+\newblock Technical report, Ministry of Environment, Forest and Climate Change,
+  2021.
+
+\bibitem[{IDCOL}(2020)]{idcol2020}
+{IDCOL}.
+\newblock Annual report 2019--2020.
+\newblock Technical report, Infrastructure Development Company Limited, Dhaka,
+  2020.
+
+\bibitem[{International Labour Organization}(2023)]{ilo2023}
+{International Labour Organization}.
+\newblock World employment and social outlook: Trends 2023.
+\newblock Technical report, ILO, Geneva, 2023.
+
+\bibitem[Khandker(2005)]{khandker2005}
+Shahidur~R. Khandker.
+\newblock Microfinance and poverty: {Evidence} using panel data from
+  {Bangladesh}.
+\newblock \emph{The World Bank Economic Review}, 19\penalty0 (2):\penalty0
+  263--286, 2005.
+
+\bibitem[Morduch(1999)]{morduch1999}
+Jonathan Morduch.
+\newblock The microfinance promise.
+\newblock \emph{Journal of Economic Literature}, 37\penalty0 (4):\penalty0
+  1569--1614, 1999.
+
+\bibitem[Rahman and Islam(2019)]{rahman2019youth}
+M.~Rahman and D.~Islam.
+\newblock Youth unemployment and the skills gap in {Bangladesh}: Challenges and
+  policy responses.
+\newblock \emph{Bangladesh Development Studies}, 42\penalty0 (1):\penalty0
+  1--28, 2019.
+
+\bibitem[Stern(2007)]{stern2007}
+Nicholas Stern.
+\newblock \emph{The Economics of Climate Change: The {Stern} Review}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem[{United Nations}(2015)]{un2015sdg}
+{United Nations}.
+\newblock Transforming our world: The 2030 agenda for sustainable development.
+\newblock UN General Assembly Resolution A/RES/70/1, 2015.
+
+\bibitem[{World Bank}(2021)]{wb2021covid}
+{World Bank}.
+\newblock {Bangladesh} {COVID}-19 poverty monitoring survey.
+\newblock Technical report, World Bank Group, Washington, DC, 2021.
+
+\bibitem[{World Bank}(2023{\natexlab{a}})]{wb2023update}
+{World Bank}.
+\newblock {Bangladesh} development update: Resilience under test.
+\newblock Technical report, World Bank Group, Washington, DC,
+  2023{\natexlab{a}}.
+
+\bibitem[{World Bank}(2023{\natexlab{b}})]{wb2023wdi}
+{World Bank}.
+\newblock World development indicators.
+\newblock Data set. \url{https://data.worldbank.org}, 2023{\natexlab{b}}.
+
+\bibitem[Yunus(2007)]{yunus2007banker}
+Muhammad Yunus.
+\newblock \emph{Banker to the Poor: Micro-Lending and the Battle Against World
+  Poverty}.
+\newblock PublicAffairs, 2007.
+
+\bibitem[Yunus(2017)]{yunus2017three}
+Muhammad Yunus.
+\newblock \emph{A World of Three Zeros: The New Economics of Zero Poverty, Zero
+  Unemployment, and Zero Net Carbon Emissions}.
+\newblock PublicAffairs, 2017.
+
+\bibitem[{Yunus Centre}(2020)]{yunuscentre2020}
+{Yunus Centre}.
+\newblock Social business and the three zeros: Progress report.
+\newblock Technical report, Yunus Centre, Dhaka, 2020.
+
+\end{thebibliography}
