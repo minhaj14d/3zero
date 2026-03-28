@@ -76,7 +76,7 @@ The 3 Zero Movement grew out of Professor Muhammad Yunus's experience with Grame
 
 In *A World of Three Zeros* (2017), Yunus went further. He argued that the current economic system, which is organized around profit maximization, is not built to solve problems like poverty, unemployment, and environmental damage. His alternative is "social business" — companies designed to address social problems rather than to make profits for shareholders. The book presents three interconnected targets: zero poverty, zero unemployment, and zero net carbon emissions. The key word is interconnected — Yunus's argument is that you cannot fix one without the others (Yunus, 2017).
 
-There is overlap between the 3 Zero framework and the UN Sustainable Development Goals adopted in 2015 (United Nations, 2015), but the SDGs are broad, government-focused, and time-bound (target year 2030). The 3 Zero Movement emphasizes entrepreneurship, social business, and bottom-up change rather than top-down policy (Yunus Centre, 2020).
+There is overlap between the 3 Zero framework and the UN Sustainable Development Goals adopted in 2015 (United Nations, 2015), but the SDGs are broad, government-focused, and time-bound (target year 2030). The 3 Zero Movement emphasizes entrepreneurship, social business, and bottom-up change rather than top-down policy (Yunus Social Business, 2021).
 
 ### 2.2 Zero Poverty: Bangladesh's Track Record
 
@@ -90,7 +90,7 @@ The COVID-19 pandemic likely caused a temporary reversal — the World Bank esti
 
 Bangladesh's official unemployment rate stays between 4–5%, but this is widely considered misleading. The BBS (following ILO guidelines) counts anyone who worked at least one hour in the reference week as "employed" (BBS, 2022). Underemployment and informal work are far more revealing indicators of the actual employment challenge.
 
-Youth unemployment is particularly concerning. ILO modeled estimates show the rate for ages 15–24 fluctuating between 6% and 13% over the past two decades, with a notable spike to 13.5% during the COVID-19 pandemic in 2020 (ILO, 2023). The phenomenon of "educated unemployment" — where people with degrees face higher unemployment than those without — reflects a skills mismatch between the education system and the labor market (Rahman & Islam, 2019).
+Youth unemployment is particularly concerning. ILO modeled estimates show the rate for ages 15–24 fluctuating between 6% and 13% over the past two decades, with a notable spike to 13.5% during the COVID-19 pandemic in 2020 (ILO, 2023). The phenomenon of "educated unemployment" — where people with degrees face higher unemployment than those without — reflects a skills mismatch between the education system and the labor market (Selim et al., 2021).
 
 The 3 Zero Movement's approach to unemployment emphasizes entrepreneurship. Yunus argues that everyone is a potential entrepreneur and that the financial system should enable self-employment through microcredit and social business (Yunus, 2017). Grameen Bank has had real results with this approach, but whether it can scale to address the structural employment challenges of a labor force exceeding 70 million is an open question.
 
@@ -98,7 +98,7 @@ The 3 Zero Movement's approach to unemployment emphasizes entrepreneurship. Yunu
 
 Bangladesh's per capita CO₂ emissions are among the lowest in the world — 0.61 tonnes in 2023, compared to a global average of about 4.7 tonnes (Global Carbon Project, 2023). But total and per-capita emissions have been rising steadily, tripling since 2000, driven by industrialization and energy consumption (World Bank, 2023).
 
-Bangladesh depends heavily on natural gas (about 55% of commercial energy) and has added coal-fired capacity during the study period, including the controversial Rampal plant near the Sundarbans (Ahmed & Hossain, 2018). Under the Paris Agreement, Bangladesh committed to reducing emissions by 21.85% below business-as-usual by 2030 (Government of Bangladesh, 2021), but progress has been limited.
+Bangladesh depends heavily on natural gas (about 55% of commercial energy) and has added coal-fired capacity during the study period, including the controversial Rampal plant near the Sundarbans (Alam et al., 2012). Under the Paris Agreement, Bangladesh committed to reducing emissions by 21.85% below business-as-usual by 2030 (Government of Bangladesh, 2021), but progress has been limited.
 
 The Solar Home System program installed over 6 million units in off-grid areas (IDCOL, 2020), but the overall share of renewables in total energy remains low. Meanwhile, Bangladesh ranks among the top ten countries most affected by extreme weather in the Global Climate Risk Index (Germanwatch, 2021), creating urgent pressure to address both adaptation and mitigation.
 
@@ -136,7 +136,7 @@ The study period is 2000–2023 (24 years). Data was fetched using Python 3.11 w
 |--------|-----------|--------|------|-----------|
 | Zero Poverty | Poverty headcount ratio at $3.00/day (2021 PPP) | World Bank (SI.POV.DDAY) | % of population | Lower is better |
 | Zero Unemployment | Youth unemployment rate, ages 15–24, ILO modeled | World Bank / ILO (SL.UEM.1524.ZS) | % of labor force 15–24 | Lower is better |
-| Zero Carbon | CO₂ emissions per capita | Global Carbon Project (OWID) | Metric tonnes CO₂ | Lower is better |
+| Zero Carbon | CO₂ emissions per capita (fossil fuel + industrial) | Global Carbon Project (OWID) | Metric tonnes CO₂ | Lower is better |
 
 All three indicators are "lower is better" — progress toward zero means the value should decrease. This simplifies the normalization: all three use the same inverted formula.
 
@@ -386,7 +386,7 @@ There are reasons to be cautious about that projection. The linear model average
 
 The youth unemployment data tells a less encouraging story. The positive regression slope (+0.18 pp/year) means that over the 24-year study period, youth unemployment has been trending slightly upward, not downward. The moderate R² (0.423) reflects significant year-to-year fluctuation — unemployment dropped to 6.3% in 2010 but spiked to 13.5% in 2020 — but the overall trajectory is not pointing toward zero.
 
-This is particularly concerning in a country where over 30% of the population is under 25. The "educated unemployment" phenomenon — where degree-holders face higher joblessness than the uneducated — suggests a deep structural mismatch between what the education system produces and what the economy demands (Rahman & Islam, 2019). The 3 Zero Movement's emphasis on entrepreneurship is one response, but the data does not show it moving the aggregate numbers in the right direction.
+This is particularly concerning in a country where over 30% of the population is under 25. The "educated unemployment" phenomenon — where degree-holders face higher joblessness than the uneducated — suggests a deep structural mismatch between what the education system produces and what the economy demands (Selim et al., 2021). The 3 Zero Movement's emphasis on entrepreneurship is one response, but the data does not show it moving the aggregate numbers in the right direction.
 
 ### 5.4 Carbon Emissions: The Structural Constraint
 
@@ -480,7 +480,7 @@ The 3ZPI is a simple tool. Min-max normalization, weighted averages, and linear 
 
 ## References
 
-1. Ahmed, S., & Hossain, M. (2018). Environmental sustainability in Bangladesh: Progress and challenges. *Environmental Policy and Law*, 48(2), 112–120.
+1. Alam, M. J., Begum, I. A., Buysse, J., & Van Huylenbroeck, G. (2012). Energy consumption, carbon emissions and economic growth nexus in Bangladesh: Cointegration and dynamic causality analysis. *Energy Policy*, 45, 217–225.
 
 2. Banerjee, A., Duflo, E., Glennerster, R., & Kinnan, C. (2015). The miracle of microfinance? Evidence from a randomized evaluation. *American Economic Journal: Applied Economics*, 7(1), 22–53.
 
@@ -502,7 +502,7 @@ The 3ZPI is a simple tool. Min-max normalization, weighted averages, and linear 
 
 11. Morduch, J. (1999). The microfinance promise. *Journal of Economic Literature*, 37(4), 1569–1614.
 
-12. Rahman, M., & Islam, D. (2019). Youth unemployment and the skills gap in Bangladesh: Challenges and policy responses. *Bangladesh Development Studies*, 42(1), 1–28.
+12. Selim, M., Farooq, M. O., & Rahman, M. (2021). Mitigating educated youth unemployment in Bangladesh. *Journal of Developing Areas*, 55(1), 185–200.
 
 13. Stern, N. (2007). *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
 
@@ -518,7 +518,7 @@ The 3ZPI is a simple tool. Min-max normalization, weighted averages, and linear 
 
 19. Yunus, M. (2017). *A World of Three Zeros: The New Economics of Zero Poverty, Zero Unemployment, and Zero Net Carbon Emissions*. PublicAffairs.
 
-20. Yunus Centre. (2020). *Social Business and the Three Zeros: Progress Report*. Dhaka: Yunus Centre.
+20. Yunus Social Business. (2021). *2020 Annual Report*. Global Yunus Social Business. https://www.yunussb.com/articles/2020-annual-report
 
 ---
 

@@ -5,12 +5,13 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Ahmed and Hossain(2018)]{ahmed2018environmental}
-S.~Ahmed and M.~Hossain.
-\newblock Environmental sustainability in {Bangladesh}: Progress and
-  challenges.
-\newblock \emph{Environmental Policy and Law}, 48\penalty0 (2):\penalty0
-  112--120, 2018.
+\bibitem[Alam et~al.(2012)Alam, Begum, Buysse, and
+  Van~Huylenbroeck]{alam2012energy}
+Mohammad~Jahangir Alam, Ismat~Ara Begum, Jeroen Buysse, and Guido
+  Van~Huylenbroeck.
+\newblock Energy consumption, carbon emissions and economic growth nexus in
+  {Bangladesh}: Cointegration and dynamic causality analysis.
+\newblock \emph{Energy Policy}, 45:\penalty0 217--225, 2012.
 
 \bibitem[Banerjee et~al.(2015)Banerjee, Duflo, Glennerster, and
   Kinnan]{banerjee2015miracle}
@@ -60,12 +61,11 @@ Jonathan Morduch.
 \newblock \emph{Journal of Economic Literature}, 37\penalty0 (4):\penalty0
   1569--1614, 1999.
 
-\bibitem[Rahman and Islam(2019)]{rahman2019youth}
-M.~Rahman and D.~Islam.
-\newblock Youth unemployment and the skills gap in {Bangladesh}: Challenges and
-  policy responses.
-\newblock \emph{Bangladesh Development Studies}, 42\penalty0 (1):\penalty0
-  1--28, 2019.
+\bibitem[Selim et~al.(2021)Selim, Farooq, and Rahman]{selim2021youth}
+Mohammad Selim, Mohammad~Omar Farooq, and Mahbubur Rahman.
+\newblock Mitigating educated youth unemployment in {Bangladesh}.
+\newblock \emph{Journal of Developing Areas}, 55\penalty0 (1):\penalty0
+  185--200, 2021.
 
 \bibitem[Stern(2007)]{stern2007}
 Nicholas Stern.
@@ -105,9 +105,10 @@ Muhammad Yunus.
   Unemployment, and Zero Net Carbon Emissions}.
 \newblock PublicAffairs, 2017.
 
-\bibitem[{Yunus Centre}(2020)]{yunuscentre2020}
-{Yunus Centre}.
-\newblock Social business and the three zeros: Progress report.
-\newblock Technical report, Yunus Centre, Dhaka, 2020.
+\bibitem[{Yunus Social Business}(2021)]{yunussb2021}
+{Yunus Social Business}.
+\newblock 2020 annual report.
+\newblock Technical report, Global Yunus Social Business, 2021.
+\newblock \url{https://www.yunussb.com/articles/2020-annual-report}.
 
 \end{thebibliography}
