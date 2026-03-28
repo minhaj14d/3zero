@@ -49,12 +49,6 @@ def save_fig(fig, name):
     print(f"  Saved: {name}.png, {name}.pdf")
 
 
-def add_source(ax, text="Source: World Bank WDI; Global Carbon Project (OWID)"):
-    """Add a source annotation at the bottom-left of the figure."""
-    ax.annotate(text, xy=(0.01, -0.12), xycoords='axes fraction',
-                fontsize=7, color='gray', style='italic')
-
-
 # ── Load data ──────────────────────────────────────────────────────────
 raw = pd.read_csv(os.path.join(DATA_DIR, 'three_zero_raw.csv'))
 norm = pd.read_csv(os.path.join(DATA_DIR, 'three_zero_normalized.csv'))
@@ -84,14 +78,13 @@ def fig1_poverty():
     ax.scatter(survey_vals['year'], survey_vals['poverty'],
                s=60, zorder=5, color=COLORS[0], edgecolors='black', linewidth=0.8)
 
-    ax.set_title('Bangladesh: Poverty Headcount Ratio at $2.15/day (2000–2023)')
+    ax.set_title('Bangladesh: Poverty Headcount Ratio at $3.00/day (2000–2023)')
     ax.set_xlabel('Year')
-    ax.set_ylabel('% of population below $2.15/day')
+    ax.set_ylabel('% of population below $3.00/day (2021 PPP)')
     ax.set_xlim(1999, 2024)
     ax.set_ylim(0, 45)
     ax.grid(True, alpha=0.3)
     ax.legend(loc='upper right')
-    add_source(ax, "Source: World Bank WDI (SI.POV.DDAY). Filled markers = survey years; open = interpolated.")
     return fig
 
 save_fig(fig1_poverty(), 'fig1_poverty_trend')
@@ -115,7 +108,6 @@ def fig2_unemployment():
     ax.set_xlim(1999, 2024)
     ax.grid(True, alpha=0.3)
     ax.legend(loc='upper left')
-    add_source(ax, "Source: World Bank WDI / ILO modeled estimates (SL.UEM.1524.ZS)")
     return fig
 
 save_fig(fig2_unemployment(), 'fig2_unemployment_trend')
@@ -140,7 +132,6 @@ def fig3_co2():
     ax.set_ylim(0, 0.75)
     ax.grid(True, alpha=0.3)
     ax.legend(loc='upper left')
-    add_source(ax, "Source: Our World in Data / Global Carbon Project")
     return fig
 
 save_fig(fig3_co2(), 'fig3_co2_trend')
@@ -166,7 +157,6 @@ def fig4_combined():
     ax.set_ylim(-0.05, 1.05)
     ax.grid(True, alpha=0.3)
     ax.legend(loc='center left', bbox_to_anchor=(0.0, 0.45))
-    add_source(ax)
     return fig
 
 save_fig(fig4_combined(), 'fig4_three_zero_index')
@@ -181,7 +171,6 @@ def fig5_heatmap():
                 linewidths=1, ax=ax,
                 cbar_kws={'label': 'Pearson r'})
     ax.set_title('Correlation Matrix — Normalized Pillar Scores')
-    add_source(ax, "n=24, significance threshold |r|>0.404 at 5% level")
     return fig
 
 save_fig(fig5_heatmap(), 'fig5_correlation_heatmap')
@@ -190,7 +179,7 @@ save_fig(fig5_heatmap(), 'fig5_correlation_heatmap')
 # ── Figure 6: Regression slopes bar chart ─────────────────────────────
 def fig6_regression():
     fig, ax = plt.subplots(figsize=(7, 5))
-    indicators = ['Poverty\n($2.15/day %)', 'Youth Unemp.\n(% 15–24)', 'CO₂ per capita\n(tonnes)']
+    indicators = ['Poverty\n($3.00/day %)', 'Youth Unemp.\n(% 15–24)', 'CO₂ per capita\n(tonnes)']
     slopes = reg['slope_beta'].values
     colors = [COLORS[0] if s < 0 else COLORS[2] for s in slopes]
 
@@ -206,7 +195,6 @@ def fig6_regression():
     ax.set_title('Annual Rate of Change (Linear Regression Slope β)')
     ax.set_ylabel('Annual change (units per year)')
     ax.grid(True, alpha=0.3, axis='y')
-    add_source(ax, "Negative slope = progress toward zero. Positive = moving away.")
     return fig
 
 save_fig(fig6_regression(), 'fig6_regression_summary')

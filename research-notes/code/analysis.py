@@ -5,7 +5,7 @@ Author: Minhajul Abedin
 Department of Applied Mathematics, NSTU
 
 This script fetches, cleans, and analyzes three indicators for Bangladesh:
-  1. Poverty headcount ratio at $2.15/day (World Bank: SI.POV.DDAY)
+  1. Poverty headcount ratio at $3.00/day (World Bank: SI.POV.DDAY)
   2. Youth unemployment, ages 15-24 (World Bank/ILO: SL.UEM.1524.ZS)
   3. CO2 emissions per capita (Our World in Data / Global Carbon Project)
 
@@ -41,7 +41,7 @@ STUDY_END = 2023
 # ── Step 1: Fetch raw data ────────────────────────────────────────────
 
 def fetch_poverty():
-    """Fetch poverty headcount at $2.15/day from World Bank API."""
+    """Fetch poverty headcount at $3.00/day (2021 PPP) from World Bank API."""
     import wbgapi as wb
     print("[1/3] Fetching poverty data (SI.POV.DDAY) from World Bank...")
     df = wb.data.DataFrame(
@@ -261,7 +261,7 @@ def main():
     print("TABLE 2: Raw Indicator Data")
     print("=" * 60)
     display = raw_df[['year', 'poverty', 'youth_unemp', 'co2_pc']].copy()
-    display.columns = ['Year', 'Poverty ($2.15/day %)', 'Youth Unemp (%)', 'CO2 pc (t)']
+    display.columns = ['Year', 'Poverty ($3.00/day %)', 'Youth Unemp (%)', 'CO2 pc (t)']
     print(display.to_string(index=False))
 
     # Normalize

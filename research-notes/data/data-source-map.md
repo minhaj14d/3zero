@@ -8,7 +8,7 @@ This file maps every data requirement in the research article to its verified so
 
 ---
 
-## Indicator 1: Poverty Headcount Ratio at $2.15/day (2017 PPP)
+## Indicator 1: Poverty Headcount Ratio at $3.00/day (2021 PPP)
 
 **Table references:** Tables 1, 2, 3, 4, 5, 7, 8, 9
 
@@ -17,7 +17,7 @@ This file maps every data requirement in the research article to its verified so
 | Organization | World Bank |
 | Dataset | World Development Indicators |
 | Indicator code | `SI.POV.DDAY` |
-| Description | % of population living below $2.15/day (2017 PPP) |
+| Description | % of population living below $3.00/day (2021 PPP) |
 | Unit | % of population |
 | Direction | Lower is better (inverted normalization) |
 | URL | https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD |

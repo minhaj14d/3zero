@@ -33,7 +33,7 @@ A Pathway to Sustainable Development}
 \maketitle
 
 \begin{abstract}
-Bangladesh has been growing fast, both in its economy and population, and that combination brings real challenges. This study looks at the 3 Zero Movement --- Professor Muhammad Yunus's framework for achieving zero poverty, zero unemployment, and zero net carbon emissions --- and measures how much actual progress Bangladesh has made over 2000--2023. Three indicators are tracked using verified data from the World Bank and the Global Carbon Project: poverty headcount at \$2.15/day, youth unemployment (ages 15--24), and CO\textsubscript{2} emissions per capita. These are normalized and combined into a composite 3 Zero Progress Index (3ZPI). The results show that poverty reduction has been dramatic --- from 41.4\% to 5.9\%, with a projected approach to zero by around 2027. However, youth unemployment shows a slight upward trend ($\beta = +0.18$~pp/year), and CO\textsubscript{2} per capita has more than tripled from 0.20 to 0.61 tonnes. The composite 3ZPI moved only modestly, from 0.51 to 0.59. A strong negative correlation ($r = -0.978$) between the poverty and CO\textsubscript{2} pillars confirms a structural tension: the economic growth driving poverty reduction simultaneously increases emissions.
+Bangladesh has been growing fast, both in its economy and population, and that combination brings real challenges. This study looks at the 3 Zero Movement --- Professor Muhammad Yunus's framework for achieving zero poverty, zero unemployment, and zero net carbon emissions --- and measures how much actual progress Bangladesh has made over 2000--2023. Three indicators are tracked using verified data from the World Bank and the Global Carbon Project: poverty headcount at \$3.00/day, youth unemployment (ages 15--24), and CO\textsubscript{2} emissions per capita. These are normalized and combined into a composite 3 Zero Progress Index (3ZPI). The results show that poverty reduction has been dramatic --- from 41.4\% to 5.9\%, with a projected approach to zero by around 2027. However, youth unemployment shows a slight upward trend ($\beta = +0.18$~pp/year), and CO\textsubscript{2} per capita has more than tripled from 0.20 to 0.61 tonnes. The composite 3ZPI moved only modestly, from 0.51 to 0.59. A strong negative correlation ($r = -0.978$) between the poverty and CO\textsubscript{2} pillars confirms a structural tension: the economic growth driving poverty reduction simultaneously increases emissions.
 
 \medskip
 \noindent\textbf{Keywords:} 3 Zero Movement, sustainable development, Bangladesh, composite index, poverty, unemployment, carbon emissions, Muhammad Yunus
@@ -85,7 +85,7 @@ The 3 Zero Movement grew out of Yunus's experience with Grameen Bank, founded in
 
 \subsection{Poverty Reduction in Bangladesh}
 
-Using the \$2.15/day international poverty line, Bangladesh's headcount ratio fell from 41.4\% in 2000 to 5.9\% by 2022 \citep{wb2023wdi} --- over 85\% reduction. This reflects sustained GDP growth, the ready-made garments sector, remittances, and microfinance \citep{khandker2005, morduch1999, banerjee2015miracle}. COVID-19 caused a temporary reversal, with an estimated 14--24 million Bangladeshis falling into poverty during 2020 \citep{wb2021covid}.
+Using the \$3.00/day international poverty line, Bangladesh's headcount ratio fell from 41.4\% in 2000 to 5.9\% by 2022 \citep{wb2023wdi} --- over 85\% reduction. This reflects sustained GDP growth, the ready-made garments sector, remittances, and microfinance \citep{khandker2005, morduch1999, banerjee2015miracle}. COVID-19 caused a temporary reversal, with an estimated 14--24 million Bangladeshis falling into poverty during 2020 \citep{wb2021covid}.
 
 \subsection{Youth Unemployment}
 
@@ -115,7 +115,7 @@ Three indicators were fetched programmatically using Python 3.11 with \texttt{wb
 \toprule
 Pillar & Indicator & Source & Unit \\
 \midrule
-Zero Poverty & Poverty headcount at \$2.15/day (2017 PPP) & WB (SI.POV.DDAY) & \% \\
+Zero Poverty & Poverty headcount at \$3.00/day (2021 PPP) & WB (SI.POV.DDAY) & \% \\
 Zero Unemployment & Youth unemployment, 15--24, ILO modeled & WB/ILO (SL.UEM.1524.ZS) & \% \\
 Zero Carbon & CO\textsubscript{2} emissions per capita & GCP (OWID) & t \\
 \bottomrule
@@ -201,7 +201,7 @@ Year & Poverty (\%) & Youth Unemp. (\%) & CO\textsubscript{2} pc (t) \\
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{../figures/fig1_poverty_trend.pdf}
-\caption{Poverty headcount ratio at \$2.15/day, Bangladesh (2000--2023).}
+\caption{Poverty headcount ratio at \$3.00/day, Bangladesh (2000--2023).}
 \label{fig:poverty}
 \end{figure}
 
@@ -335,7 +335,7 @@ The $r = -0.978$ correlation between poverty and CO\textsubscript{2} quantifies 
 
 \subsection{Poverty: Extraordinary Progress}
 
-The decline from 41.4\% to 5.9\% at the \$2.15/day line is one of the fastest sustained poverty reductions in the developing world. The linear projection suggests poverty at this threshold could approach zero by $\sim$2027, though the final percentage points will be the hardest.
+The decline from 41.4\% to 5.9\% at the \$3.00/day line is one of the fastest sustained poverty reductions in the developing world. The linear projection suggests poverty at this threshold could approach zero by $\sim$2027, though the final percentage points will be the hardest.
 
 \subsection{Youth Unemployment: Wrong Direction}
 
@@ -355,7 +355,7 @@ Key limitations include: heavy interpolation of poverty data (5 survey points ov
 
 \subsection{Summary}
 
-Bangladesh has made extraordinary progress on extreme poverty ($-$85\% at \$2.15/day) but youth unemployment is trending upward and CO\textsubscript{2} per capita has tripled. The composite 3ZPI moved only +0.085 over 24 years. A near-perfect negative correlation ($r = -0.978$) between poverty and carbon progress reveals that the current development model, while effective at reducing poverty, is structurally antagonistic to the carbon target.
+Bangladesh has made extraordinary progress on extreme poverty ($-$85\% at \$3.00/day) but youth unemployment is trending upward and CO\textsubscript{2} per capita has tripled. The composite 3ZPI moved only +0.085 over 24 years. A near-perfect negative correlation ($r = -0.978$) between poverty and carbon progress reveals that the current development model, while effective at reducing poverty, is structurally antagonistic to the carbon target.
 
 \subsection{Recommendations}
 

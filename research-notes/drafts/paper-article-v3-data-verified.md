@@ -16,7 +16,7 @@ Noakhali Science and Technology University (NSTU), Bangladesh
 
 **Abstract**
 
-Bangladesh has been growing fast, both in its economy and population, and that combination brings real challenges. The country needs to figure out how to keep growing without undermining its own future. There has been genuine progress in areas like health and education, but poverty, joblessness, and environmental damage remain serious problems that could hold things back. This study looks at the 3 Zero Movement — Professor Muhammad Yunus's framework for achieving zero poverty, zero unemployment, and zero net carbon emissions — and tries to measure how much actual progress Bangladesh has made toward these goals over the period 2000–2023. Three indicators are tracked using verified data from the World Bank and the Global Carbon Project: poverty headcount at $2.15/day, youth unemployment (ages 15–24), and CO₂ emissions per capita. These are normalized and combined into a composite 3 Zero Progress Index (3ZPI). Linear regression estimates the rate of change for each indicator, and Pearson correlation tests whether the three pillars move together or against each other. The results show that poverty reduction has been dramatic — from 41.4% to 5.9%, with a projected approach to zero by around 2027 under the current trend. However, youth unemployment shows a slight upward trend (β = +0.18 pp/year), and CO₂ per capita has more than tripled from 0.20 to 0.61 tonnes. The composite 3ZPI moved only modestly, from 0.51 to 0.59, peaking at 0.69 in 2010 before declining through 2020 as worsening unemployment and emissions offset poverty gains. A strong negative correlation (r = −0.98) between the poverty and CO₂ pillars confirms a structural tension: the economic growth driving poverty reduction simultaneously increases emissions. These findings suggest that Bangladesh's development is deeply imbalanced, and that the 3 Zero vision requires fundamentally different approaches to employment and energy.
+Bangladesh has been growing fast, both in its economy and population, and that combination brings real challenges. The country needs to figure out how to keep growing without undermining its own future. There has been genuine progress in areas like health and education, but poverty, joblessness, and environmental damage remain serious problems that could hold things back. This study looks at the 3 Zero Movement — Professor Muhammad Yunus's framework for achieving zero poverty, zero unemployment, and zero net carbon emissions — and tries to measure how much actual progress Bangladesh has made toward these goals over the period 2000–2023. Three indicators are tracked using verified data from the World Bank and the Global Carbon Project: poverty headcount at $3.00/day, youth unemployment (ages 15–24), and CO₂ emissions per capita. These are normalized and combined into a composite 3 Zero Progress Index (3ZPI). Linear regression estimates the rate of change for each indicator, and Pearson correlation tests whether the three pillars move together or against each other. The results show that poverty reduction has been dramatic — from 41.4% to 5.9%, with a projected approach to zero by around 2027 under the current trend. However, youth unemployment shows a slight upward trend (β = +0.18 pp/year), and CO₂ per capita has more than tripled from 0.20 to 0.61 tonnes. The composite 3ZPI moved only modestly, from 0.51 to 0.59, peaking at 0.69 in 2010 before declining through 2020 as worsening unemployment and emissions offset poverty gains. A strong negative correlation (r = −0.98) between the poverty and CO₂ pillars confirms a structural tension: the economic growth driving poverty reduction simultaneously increases emissions. These findings suggest that Bangladesh's development is deeply imbalanced, and that the 3 Zero vision requires fundamentally different approaches to employment and energy.
 
 **Keywords:** 3 Zero Movement, sustainable development, Bangladesh, composite index, poverty, unemployment, carbon emissions, Muhammad Yunus
 
@@ -52,7 +52,7 @@ Three questions guide this study:
 
 ### 1.4 Objectives
 
-1. To collect and analyze verified data on three indicators — poverty headcount at $2.15/day, youth unemployment, and CO₂ per capita — using World Bank and Global Carbon Project sources.
+1. To collect and analyze verified data on three indicators — poverty headcount at $3.00/day, youth unemployment, and CO₂ per capita — using World Bank and Global Carbon Project sources.
 2. To construct a composite 3 Zero Progress Index (3ZPI) by normalizing and aggregating these indicators.
 3. To examine statistical relationships between the pillars using Pearson correlation.
 4. To project when each target might be reached using linear extrapolation, and to identify the most lagging pillar.
@@ -80,7 +80,7 @@ There is overlap between the 3 Zero framework and the UN Sustainable Development
 
 ### 2.2 Zero Poverty: Bangladesh's Track Record
 
-Bangladesh has a genuinely impressive track record on poverty reduction. Using the international poverty line of $2.15/day (2017 PPP), the headcount ratio fell from 41.4% in 2000 to just 5.9% by 2022 (World Bank, 2023). That is a reduction of over 85% in roughly two decades — one of the fastest sustained poverty declines in the developing world.
+Bangladesh has a genuinely impressive track record on poverty reduction. Using the international poverty line of $3.00/day (2021 PPP), the headcount ratio fell from 41.4% in 2000 to just 5.9% by 2022 (World Bank, 2023). That is a reduction of over 85% in roughly two decades — one of the fastest sustained poverty declines in the developing world.
 
 This decline reflects multiple factors: sustained GDP growth, expansion of the ready-made garments sector, remittance inflows from migrant workers, microfinance penetration, and government social safety net programs (World Bank, 2023). Khandker (2005) found that microfinance participation was linked to about a 1.6 percentage point reduction in moderate poverty per year for participating households, though Morduch (1999) and Banerjee et al. (2015) offered more cautious assessments of microfinance's overall impact.
 
@@ -118,13 +118,13 @@ This study uses a quantitative approach based on secondary data analysis. Three 
 
 | Source | Indicator | Access Method |
 |--------|-----------|---------------|
-| World Bank WDI | Poverty headcount at $2.15/day (SI.POV.DDAY) | `wbgapi` Python API |
+| World Bank WDI | Poverty headcount at $3.00/day (SI.POV.DDAY) | `wbgapi` Python API |
 | World Bank WDI / ILOSTAT | Youth unemployment, 15–24 (SL.UEM.1524.ZS) | `wbgapi` Python API |
 | Our World in Data / GCP | CO₂ emissions per capita | CSV (GitHub) |
 
 The study period is 2000–2023 (24 years). Data was fetched using Python 3.11 with the `wbgapi` library for World Bank indicators and `pandas` for the Our World in Data / Global Carbon Project CSV.
 
-> **Note on poverty data:** The World Bank $2.15/day indicator is only available for survey years in Bangladesh (~2000, 2005, 2010, 2016, 2022). Values for non-survey years were linearly interpolated. This introduces smoothing and is discussed as a limitation.
+> **Note on poverty data:** The World Bank $3.00/day indicator is only available for survey years in Bangladesh (~2000, 2005, 2010, 2016, 2022). Values for non-survey years were linearly interpolated. This introduces smoothing and is discussed as a limitation.
 
 > **Note on CO₂ data:** World Bank CO₂ data (sourced from Climate Watch) lags by 2–3 years. Data for 2021–2023 was sourced from the Global Carbon Project via Our World in Data.
 
@@ -134,7 +134,7 @@ The study period is 2000–2023 (24 years). Data was fetched using Python 3.11 w
 
 | Pillar | Indicator | Source | Unit | Direction |
 |--------|-----------|--------|------|-----------|
-| Zero Poverty | Poverty headcount ratio at $2.15/day (2017 PPP) | World Bank (SI.POV.DDAY) | % of population | Lower is better |
+| Zero Poverty | Poverty headcount ratio at $3.00/day (2021 PPP) | World Bank (SI.POV.DDAY) | % of population | Lower is better |
 | Zero Unemployment | Youth unemployment rate, ages 15–24, ILO modeled | World Bank / ILO (SL.UEM.1524.ZS) | % of labor force 15–24 | Lower is better |
 | Zero Carbon | CO₂ emissions per capita | Global Carbon Project (OWID) | Metric tonnes CO₂ | Lower is better |
 
@@ -340,7 +340,7 @@ The regression results show three very different trajectories (see Figure 6):
 
 The projections show a stark contrast:
 
-- **Poverty** could approach zero around 2027 under the current linear trend. This seems optimistic, and the linear model probably overstates the pace because the recent period (2016–2022) saw accelerated reduction. The last few percentage points are typically the hardest to eliminate. But even with conservative adjustments, poverty at the $2.15/day level is on a credible downward path.
+- **Poverty** could approach zero around 2027 under the current linear trend. This seems optimistic, and the linear model probably overstates the pace because the recent period (2016–2022) saw accelerated reduction. The last few percentage points are typically the hardest to eliminate. But even with conservative adjustments, poverty at the $3.00/day level is on a credible downward path.
 - **Youth unemployment** is trending in the wrong direction. The slope is positive, meaning the rate is increasing slightly rather than decreasing. Getting to zero would require a reversal of the current trend — not just continuation but fundamental structural change in the labor market.
 - **CO₂ per capita** is also moving away from zero. Under the current trend, per-capita emissions will continue rising. Reaching zero net emissions is incompatible with the current trajectory and would require transformation of the energy and industrial base.
 
@@ -362,7 +362,7 @@ All three correlations exceed the 5% significance threshold of $|r| > 0.404$ (wi
 
 **Youth Unemployment vs. CO₂ (r = +0.705):** This positive correlation means that when CO₂ normalization was high (early years, low emissions), youth unemployment normalization was also relatively high (lower unemployment rates). As emissions grew and the economy industrialized, youth unemployment also worsened. Both indicators deteriorated together over time, likely driven by common underlying structural changes.
 
-**Poverty vs. Youth Unemployment (r = −0.620):** This negative correlation was initially surprising. It means that as poverty went down, youth unemployment went up. But it makes sense when you think about it: the extreme poverty measured by the $2.15/day line captures the poorest populations, whose exit from poverty was driven by economic growth and remittances. The same structural changes that lifted people above $2.15/day (urbanization, industrial transition) did not necessarily create quality employment for young people — and in some cases may have disrupted traditional employment patterns.
+**Poverty vs. Youth Unemployment (r = −0.620):** This negative correlation was initially surprising. It means that as poverty went down, youth unemployment went up. But it makes sense when you think about it: the extreme poverty measured by the $3.00/day line captures the poorest populations, whose exit from poverty was driven by economic growth and remittances. The same structural changes that lifted people above $3.00/day (urbanization, industrial transition) did not necessarily create quality employment for young people — and in some cases may have disrupted traditional employment patterns.
 
 ---
 
@@ -378,7 +378,7 @@ The r = −0.978 correlation between poverty and CO₂ puts a number on this tra
 
 ### 5.2 Poverty: A Genuine Success
 
-The poverty numbers are the clear success story. Going from 41.4% to 5.9% at the $2.15/day line in about two decades is remarkable. The regression slope of −1.48 pp/year, with R² = 0.988, indicates that the decline has been consistent and well-described by a straight line. If extrapolated, poverty at this threshold could approach zero by around 2027.
+The poverty numbers are the clear success story. Going from 41.4% to 5.9% at the $3.00/day line in about two decades is remarkable. The regression slope of −1.48 pp/year, with R² = 0.988, indicates that the decline has been consistent and well-described by a straight line. If extrapolated, poverty at this threshold could approach zero by around 2027.
 
 There are reasons to be cautious about that projection. The linear model averages across periods of different decline rates — the reduction accelerated between 2016 and 2022 (from 19.5% to 5.9%, roughly 2.3 pp/year). The last few percentage points of extreme poverty are typically the hardest because they involve the most marginalized populations — geographically remote, disabled, elderly, or otherwise structurally excluded from the benefits of economic growth. But even with these caveats, the direction is clearly right.
 
@@ -412,7 +412,7 @@ After 2010, unemployment worsened and emissions accelerated, overwhelming the co
 
 3. **CO₂ data source transition.** World Bank CO₂ data was used through ~2020, supplemented by Global Carbon Project data for 2021–2023. Different source methodologies may introduce a small discontinuity.
 
-4. **Three indicators simplify a complex reality.** Poverty at $2.15/day misses multidimensional deprivation. Youth unemployment (15–24) misses underemployment, informality, and the situation of workers aged 25+. CO₂ per capita misses total emissions, sectoral composition, and methane/other greenhouse gases.
+4. **Three indicators simplify a complex reality.** Poverty at $3.00/day misses multidimensional deprivation. Youth unemployment (15–24) misses underemployment, informality, and the situation of workers aged 25+. CO₂ per capita misses total emissions, sectoral composition, and methane/other greenhouse gases.
 
 5. **Small indicator set limits the 3ZPI.** With only one indicator per pillar, there is no within-pillar diversification. A single indicator's idiosyncrasies (like unemployment's year-to-year volatility) directly affects the pillar score.
 
@@ -430,7 +430,7 @@ This study measured Bangladesh's progress toward the three zeros — zero povert
 
 1. **The composite 3ZPI moved only modestly, from 0.506 to 0.592 (+0.085).** It peaked at 0.692 in 2010 and then declined through 2020 (0.318) before recovering. Overall 3 Zero progress has been limited despite dramatic poverty reduction.
 
-2. **Poverty reduction at $2.15/day has been extraordinary** — from 41.4% to 5.9%, with a strong linear trend (β = −1.48, R² = 0.988) and a projected approach to zero by ~2027.
+2. **Poverty reduction at $3.00/day has been extraordinary** — from 41.4% to 5.9%, with a strong linear trend (β = −1.48, R² = 0.988) and a projected approach to zero by ~2027.
 
 3. **Youth unemployment is trending in the wrong direction** (β = +0.18, R² = 0.423). It fluctuates year to year but the overall direction is upward, not toward zero.
 
@@ -470,7 +470,7 @@ This study measured Bangladesh's progress toward the three zeros — zero povert
 
 The 3 Zero Movement asks for an economic system that produces no poverty, no unemployment, and no environmental damage. This study did not evaluate whether that vision is achievable. What it tried to do is simpler — measure where Bangladesh stands right now against those three goals, using verified data and the mathematical tools available to an applied mathematics student.
 
-The picture that emerges is stark. Bangladesh has made extraordinary progress on extreme poverty — the $2.15/day headcount ratio has fallen by over 85% in two decades. But this success has come alongside worsening youth unemployment and steadily rising carbon emissions. The composite 3ZPI barely moved over 24 years because the gains in one pillar were offset by losses in the other two.
+The picture that emerges is stark. Bangladesh has made extraordinary progress on extreme poverty — the $3.00/day headcount ratio has fallen by over 85% in two decades. But this success has come alongside worsening youth unemployment and steadily rising carbon emissions. The composite 3ZPI barely moved over 24 years because the gains in one pillar were offset by losses in the other two.
 
 The near-perfect negative correlation between poverty reduction and carbon performance (r = −0.98) is perhaps the most important finding. It says that Bangladesh's current development model, while highly effective at reducing poverty, is structurally antagonistic to the carbon target. If all three zeros are to be achieved, something has to change in how growth happens — not just how fast.
 
