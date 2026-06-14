@@ -55,6 +55,8 @@ norm = pd.read_csv(os.path.join(DATA_DIR, 'three_zero_normalized.csv'))
 sens = pd.read_csv(os.path.join(DATA_DIR, 'three_zero_sensitivity.csv'))
 reg = pd.read_csv(os.path.join(DATA_DIR, 'regression_results.csv'))
 corr = pd.read_csv(os.path.join(DATA_DIR, 'correlation_matrix.csv'), index_col=0)
+secondary_path = os.path.join(DATA_DIR, 'secondary_context.csv')
+secondary = pd.read_csv(secondary_path) if os.path.exists(secondary_path) else None
 
 print("Generating figures...")
 
@@ -200,4 +202,55 @@ def fig6_regression():
 save_fig(fig6_regression(), 'fig6_regression_summary')
 
 
-print("\n✓ All 6 figures generated in research-notes/figures/")
+# ── Figure 7: Youth vs total unemployment (secondary context) ─────────
+def fig7_unemployment_comparison():
+    if secondary is None:
+        return None
+    fig, ax = plt.subplots()
+    ax.plot(raw['year'], raw['youth_unemp'], marker='s', markersize=4,
+            color=COLORS[1], linewidth=1.8, label='Youth unemployment (15–24, ILO modeled)')
+    ax.plot(secondary['year'], secondary['unemployment_total'], marker='o', markersize=4,
+            color=COLORS[4], linewidth=1.8, label='Total unemployment (ILO modeled)')
+    ax.set_title('Bangladesh: Youth vs Total Unemployment (2000–2023)')
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Unemployment rate (% of labour force)')
+    ax.set_xlim(1999, 2024)
+    ax.grid(True, alpha=0.3)
+    ax.legend(loc='upper left')
+    return fig
+
+if secondary is not None:
+    save_fig(fig7_unemployment_comparison(), 'fig7_unemployment_comparison')
+
+
+# ── Figure 8: Total CO₂ and renewable energy share ────────────────────
+def fig8_emissions_energy_context():
+    if secondary is None:
+        return None
+    fig, ax1 = plt.subplots()
+    ax1.plot(secondary['year'], secondary['co2_total_mt'], marker='^', markersize=4,
+             color=COLORS[2], linewidth=1.8, label='Total CO₂ (Mt)')
+    ax1.set_xlabel('Year')
+    ax1.set_ylabel('Total CO₂ emissions (million tonnes)', color=COLORS[2])
+    ax1.tick_params(axis='y', labelcolor=COLORS[2])
+    ax1.set_xlim(1999, 2024)
+    ax1.grid(True, alpha=0.3)
+
+    ax2 = ax1.twinx()
+    renew = secondary.dropna(subset=['renewable_energy_pct'])
+    ax2.plot(renew['year'], renew['renewable_energy_pct'], marker='D', markersize=4,
+             color=COLORS[5], linewidth=1.8, label='Renewable energy share (%)')
+    ax2.set_ylabel('Renewable energy (% of final consumption)', color=COLORS[5])
+    ax2.tick_params(axis='y', labelcolor=COLORS[5])
+
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lines1 + lines2, labels1 + labels2, loc='upper left')
+    ax1.set_title('Bangladesh: Total CO₂ Emissions and Renewable Energy Share')
+    return fig
+
+if secondary is not None:
+    save_fig(fig8_emissions_energy_context(), 'fig8_emissions_energy_context')
+
+
+print("\n✓ All figures generated in research-notes/figures/")

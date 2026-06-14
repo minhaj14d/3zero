@@ -24,7 +24,7 @@ This file maps every data requirement in the research article to its verified so
 | Access method | `wbgapi` Python API — `wb.data.DataFrame('SI.POV.DDAY', economy='BGD')` |
 | Coverage | Available for survey years only |
 | Known survey years | ~2000, 2005, 2010, 2016, 2022 |
-| Status | [ ] Not yet fetched |
+| Status | [x] Fetched — `data/processed/three_zero_raw.csv` |
 
 > **Gap:** Annual data is NOT available. Only ~5 data points exist for the 2000–2023 period. Linear interpolation is required for non-survey years and must be flagged as a limitation in the paper.
 
@@ -47,7 +47,7 @@ This file maps every data requirement in the research article to its verified so
 | URL | https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=BD |
 | Access method | `wbgapi` Python API — `wb.data.DataFrame('SL.UEM.1524.ZS', economy='BGD')` |
 | Coverage | Annual, 1991–2024 (ILO modeled estimates) |
-| Status | [ ] Not yet fetched |
+| Status | [x] Fetched — `data/processed/three_zero_raw.csv` |
 
 > **Note:** The ILO modeled estimates combine nationally reported observations with imputed data. These are not direct survey measurements but modeled values with associated uncertainty. This must be noted in the paper's Methodology and Limitations sections.
 
@@ -66,10 +66,10 @@ This file maps every data requirement in the research article to its verified so
 
 | Field | Value |
 |-------|-------|
-| Organization | World Bank (2000–2020) + Global Carbon Project (2021–2023) |
-| Dataset (primary) | World Development Indicators |
-| Indicator code (primary) | `EN.ATM.CO2E.PC` |
-| Dataset (supplement) | Global Carbon Budget |
+| Organization | Global Carbon Project via Our World in Data |
+| Dataset (primary) | OWID CO₂ dataset (GitHub mirror) |
+| Indicator code (primary) | `co2_per_capita` |
+| Dataset (supplement) | World Development Indicators `EN.ATM.CO2E.PC` (API fails via wbgapi) |
 | URL (WB) | https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=BD |
 | URL (GCP) | https://zenodo.org/records/13981696 |
 | URL (OWID mirror) | https://ourworldindata.org/co2/country/bangladesh |
@@ -79,11 +79,11 @@ This file maps every data requirement in the research article to its verified so
 | Direction | Lower is better (inverted normalization) |
 | WB Coverage | Annual, 1960–~2020 |
 | GCP Coverage | Annual, 1750–2023 |
-| Status | [ ] Not yet fetched |
+| Status | [x] Fetched — `data/processed/three_zero_raw.csv` |
 
-> **Gap:** World Bank CO₂ data (sourced from Climate Watch) typically lags 2–3 years. Data for 2021–2023 must be sourced from the Global Carbon Project. The script merges WB data (2000–2020) with GCP data (2021–2023), preferring WB where both exist.
+> **Note (pipeline):** `analysis.py` uses OWID/GCP only for CO₂ per capita. World Bank `EN.ATM.CO2E.PC` is documented here but not merged due to API fetch failure.
 
-> **Risk:** Different source methodologies (Climate Watch vs. GCP) may cause a small discontinuity at the merge point (~2020). This should be noted in the paper.
+> **Gap:** World Bank CO₂ data (sourced from Climate Watch) typically lags 2–3 years. OWID/GCP provides continuous annual data through 2023.
 
 **Verified reference values (from GCP via countryeconomy.com):**
 - 2021: 0.68 t/capita
@@ -118,3 +118,25 @@ This file maps every data requirement in the research article to its verified so
 | 3ZPI composite | `data/processed/three_zero_3zpi.csv` | `analysis.py` output |
 | Regression results | `data/processed/regression_results.csv` | `analysis.py` output |
 | Correlation matrix | `data/processed/correlation_matrix.csv` | `analysis.py` output |
+| Secondary context | `data/processed/secondary_context.csv` | `fetch_secondary.py` output |
+
+---
+
+## Secondary Context Indicators (Monograph v2 — not in 3ZPI)
+
+Fetched by `code/fetch_secondary.py` for contextual interpretation only.
+
+| Indicator | Code / column | Source | Status |
+|-----------|---------------|--------|--------|
+| National poverty headcount | `SI.POV.NAHC` / `poverty_national` | World Bank WDI | [x] Fetched (2022 only: 18.7%) |
+| Total unemployment | `SL.UEM.TOTL.ZS` / `unemployment_total` | World Bank WDI | [x] Fetched |
+| Renewable energy share | `EG.FEC.RNEW.ZS` / `renewable_energy_pct` | World Bank WDI | [x] Fetched (ends 2021) |
+| GDP per capita growth | `NY.GDP.PCAP.KD.ZG` / `gdp_pc_growth` | World Bank WDI | [x] Fetched |
+| Population | `SP.POP.TOTL` / `population` | World Bank WDI | [x] Fetched |
+| Total CO₂ emissions | `co2` (Mt) / `co2_total_mt` | OWID / GCP | [x] Fetched |
+
+**Figures:** `fig7_unemployment_comparison`, `fig8_emissions_energy_context` in `figures/`
+
+**Paper outputs:**
+- Conference article (v3): `drafts/paper-article-v3-data-verified.md`, `drafts/paper-article-v3.tex`
+- Enriched monograph (v2): `drafts/paper-monograph-v2-enriched.md`, `drafts/paper-monograph-v2.tex` → `paper-monograph-v2.pdf`

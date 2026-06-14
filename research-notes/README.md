@@ -26,6 +26,25 @@ Research project investigating the impact of the 3 Zero Movement (zero poverty, 
 ## Key Files
 
 - **Paper outline:** `drafts/paper-outline.md`
+- **Conference article (v3):** `drafts/paper-article-v3-data-verified.md`, `drafts/paper-article-v3.tex`
+- **Enriched monograph (v2):** `drafts/paper-monograph-v2-enriched.md`, `drafts/paper-monograph-v2.tex`, `drafts/paper-monograph-v2.pdf`
+- **Data source map:** `data/data-source-map.md`
 - **Initial proposal backup:** `backups/initial-research-proposal-backup.md`
 - **Original proposal:** `../initialresearchproposal.md`
 - **Published abstract:** `../publishedabstract.md`
+
+## Reproducible Pipeline
+
+From `research-notes/code/`:
+
+```bash
+python analysis.py          # core 3ZPI indicators → data/processed/
+python fetch_secondary.py   # contextual indicators → secondary_context.csv
+python generate_figures.py  # fig1–fig8 → figures/
+```
+
+Compile PDF (from `drafts/`):
+
+```bash
+pdflatex paper-monograph-v2.tex && bibtex paper-monograph-v2 && pdflatex paper-monograph-v2.tex && pdflatex paper-monograph-v2.tex
+```
